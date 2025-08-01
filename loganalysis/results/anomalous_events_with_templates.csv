@@ -1,0 +1,23 @@
+SessionId,EventSequence,Anomaly,EventId,EventTemplate
+2015,['4a8d1017'],1.0,4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch
+2020,['1541e39a'],1.0,1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>
+2035,['783333bd'],1.0,783333bd,<*> <*> wrong address
+2118,['83c34da8'],1.0,83c34da8,<*> 3a:<*>:<*>:f3:fa:bd
+2130,['c3aaddda'],1.0,c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>
+2166,['12f48da5'],1.0,12f48da5,<*> a2:cd:df:<*>:<*>:f<*>
+2178,['10bcab90'],1.0,10bcab90,<*> fa:0c:e5:dd:5c:b<*>
+2246,['25bf8d95'],1.0,25bf8d95,<*> <*>:fd:d4:0c:f0:<*>
+2265,['ce7a5243'],1.0,ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>
+2292,['34a3889b'],1.0,34a3889b,<*> b6:ab:1a:<*>:4a:ec
+2305,['f084babf'],1.0,f084babf,<*> 2a:5b:ce:fb:<*>:eb
+2312,['a8062b8d'],1.0,a8062b8d,<*> <*>:d5:ec:1c:b7:<*>
+2418,['29ddc60e'],1.0,29ddc60e,support enabled: connected to system bus
+2524,['855bc1bb'],1.0,855bc1bb,<*> ca:6c:<*>:b4:7f:<*>
+2610,['d9d01975'],1.0,d9d01975,<*> 0c:6a:c4:2a:<*>:<*>
+2633,['ee2a3124'],1.0,ee2a3124,<*> ea:ff:<*>:bb:c9:<*>
+2634,['da38ce8c'],1.0,da38ce8c,ea:ff:<*>:bb:c9:<*>
+2730,['88f01700'],1.0,88f01700,<*> <*>:dd:f6:ff:<*>:ba
+2759,['e317df3c'],1.0,e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone
+2799,['4a571aa4'],1.0,4a571aa4,Path is invalid: Device.Ethernet.Interface.<*>.MACAddress
+2800,['a329b4ba'],1.0,a329b4ba,Path (Device.Ethernet.Interface.<*>.MACAddress) does not exist in the schema
+2857,['7880dc5e'],1.0,7880dc5e,accepted login on / for admim from <*>

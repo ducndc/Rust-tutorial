@@ -9,6 +9,9 @@ from loganalysis.models import PCA
 from loganalysis import dataloader, preprocessing
 
 struct_log = '../data/result/logmesh_structured.csv'
+anomalies_file = './results/anomalies_detected.csv'
+templates_file = '../data/result/logmesh_templates.csv'
+
 train_ratio = 0.7
 
 if __name__ == '__main__':
@@ -34,7 +37,13 @@ if __name__ == '__main__':
 
     test_df['Anomaly'] = y_test
     anomalies = test_df[test_df['Anomaly'] == 1]
-    anomalies.to_csv('./results/anomalies_detected.csv', index=False)
+    anomalies.to_csv(anomalies_file, index=False)
 
-    print(f'\nDetect {len(anomalies)} anomal log.')
-    print(f'Save to results/anomalies_detected.csv')
+    anomalies_df = pd.read_csv(anomalies_file)
+    templates_df = pd.read_csv(templates_file)
+
+    anomalies_df['EventId'] = anomalies_df['EventSequence'].str.extract(r"\['(.+?)'\]")
+    merged_df = pd.merge(anomalies_df, templates_df[['EventId', 'EventTemplate']], on='EventId', how='left')
+
+    unique_rows = merged_df.drop_duplicates(subset=['EventSequence'])
+    unique_rows.to_csv('./results/anomalous_events_with_templates.csv', index=False)
