@@ -8,8 +8,8 @@ To get better parsing results, you are suggested to tune the hyper-parameters
 
 from logparser.Drain import LogParser
 
-input_dir = './data/input_log/' # The input directory of log file
-output_dir = './data/result/'  # The output directory of parsing results
+input_dir = '../data/input_log/' # The input directory of log file
+output_dir = '../data/result/'  # The output directory of parsing results
 log_file = 'logmesh'  # The input log file name
 log_format = '<Date> <Time> <Level>:<Content>' # Define log format to split message fields
 # Regular expression list for optional preprocessing (default: [])
