@@ -20,7 +20,7 @@ struct_log = '../data/result/logmesh_structured.csv' # The structured log file
 if __name__ == '__main__':
     ## 1. Load strutured log file and extract feature vectors
     # Save the raw event sequence file by setting save_csv=True
-    (x_train, _), (_, _), _ = dataloader.load_wifi_log(struct_log, train_ratio=0.5,
+    (x_train, _), (x_test, _), _ = dataloader.load_wifi_log(struct_log, train_ratio=0.7,
                                                         split_type='sequential', save_csv=True)
     feature_extractor = preprocessing.FeatureExtractor()
     x_train = feature_extractor.fit_transform(x_train, term_weighting='tf-idf', 
@@ -37,8 +37,7 @@ if __name__ == '__main__':
 
     ## 3. Use the trained model for online anomaly detection
     print('Test phase:')
-    # Load another new log file. Here we use struct_log for demo only
-    (x_test, _), (_, _), _ = dataloader.load_wifi_log(struct_log, train_ratio=0.5, split_type='sequential')
+
     # Go through the same feature extraction process with training, using transform() instead
     x_test = feature_extractor.transform(x_test) 
     # Finally make predictions and alter on anomaly cases
