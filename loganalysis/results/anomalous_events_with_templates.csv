@@ -1,23 +1,27 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-2015,['4a8d1017'],1.0,4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch
-2020,['1541e39a'],1.0,1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>
-2035,['783333bd'],1.0,783333bd,<*> <*> wrong address
-2118,['83c34da8'],1.0,83c34da8,<*> 3a:<*>:<*>:f3:fa:bd
-2130,['c3aaddda'],1.0,c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>
-2166,['12f48da5'],1.0,12f48da5,<*> a2:cd:df:<*>:<*>:f<*>
-2178,['10bcab90'],1.0,10bcab90,<*> fa:0c:e5:dd:5c:b<*>
-2246,['25bf8d95'],1.0,25bf8d95,<*> <*>:fd:d4:0c:f0:<*>
-2265,['ce7a5243'],1.0,ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>
-2292,['34a3889b'],1.0,34a3889b,<*> b6:ab:1a:<*>:4a:ec
-2305,['f084babf'],1.0,f084babf,<*> 2a:5b:ce:fb:<*>:eb
-2312,['a8062b8d'],1.0,a8062b8d,<*> <*>:d5:ec:1c:b7:<*>
-2418,['29ddc60e'],1.0,29ddc60e,support enabled: connected to system bus
-2524,['855bc1bb'],1.0,855bc1bb,<*> ca:6c:<*>:b4:7f:<*>
-2610,['d9d01975'],1.0,d9d01975,<*> 0c:6a:c4:2a:<*>:<*>
-2633,['ee2a3124'],1.0,ee2a3124,<*> ea:ff:<*>:bb:c9:<*>
-2634,['da38ce8c'],1.0,da38ce8c,ea:ff:<*>:bb:c9:<*>
-2730,['88f01700'],1.0,88f01700,<*> <*>:dd:f6:ff:<*>:ba
-2759,['e317df3c'],1.0,e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone
-2799,['4a571aa4'],1.0,4a571aa4,Path is invalid: Device.Ethernet.Interface.<*>.MACAddress
-2800,['a329b4ba'],1.0,a329b4ba,Path (Device.Ethernet.Interface.<*>.MACAddress) does not exist in the schema
-2857,['7880dc5e'],1.0,7880dc5e,accepted login on / for admim from <*>
+2033,['1541e39a'],1.0,1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>
+2084,['12f48da5'],1.0,12f48da5,<*> a2:cd:df:<*>:<*>:f<*>
+2127,['4a8d1017'],1.0,4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch
+2175,['37902d03'],1.0,37902d03,<*> <*>:5c:<*>:1d:fb:<*> iPhone
+2187,['efd718f9'],1.0,efd718f9,<*> fa:0c:e5:dd:5c:b4 Tab-S6-Lite-cua-Hoan
+2247,['89ec0621'],1.0,89ec0621,<*> <*>:fd:d4:0c:f0:<*> S21-cua-Bao
+2258,['ce7a5243'],1.0,ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>
+2278,['a7cab1bf'],1.0,a7cab1bf,<*> 1a:a3:f1:1d:<*>:<*>
+2358,['d9d01975'],1.0,d9d01975,<*> 0c:6a:c4:2a:<*>:<*>
+2422,['0ba36a6f'],1.0,0ba36a6f,only locally-known addresses for domain <*>
+2464,['2f88821e'],1.0,2f88821e,<*> <*>:3f:de:dc:cc:<*> iPhone
+2471,['7229368a'],1.0,7229368a,36:f9:4a:<*>:<*>:d<*>
+2483,['73532e80'],1.0,73532e80,<*> 9a:<*>:<*>:ac:<*>:3d
+2513,['a8062b8d'],1.0,a8062b8d,<*> <*>:d5:ec:1c:b7:<*>
+2556,['949be809'],1.0,949be809,<*> <*>:<*>:7c:a9:dd:f<*>
+2567,['c3aaddda'],1.0,c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>
+2646,['ee2a3124'],1.0,ee2a3124,<*> ea:ff:<*>:bb:c9:<*>
+2671,['c9ab2ff7'],1.0,c9ab2ff7,<*> 9c:1c:<*>:e5:4d:cf <*>
+2686,['8a5564a8'],1.0,8a5564a8,<*> 0a:af:1b:a9:1d:ff
+2727,['e317df3c'],1.0,e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone
+2746,['88f01700'],1.0,88f01700,<*> <*>:dd:f6:ff:<*>:ba
+2792,['7c5f7a8a'],1.0,7c5f7a8a,<*> c6:<*>:cf:6f:e3:<*> OPPO-A77s
+2796,['7360da68'],1.0,7360da68,<*> 8e:<*>:<*>:d9:<*>:2a
+2803,['fc945c48'],1.0,fc945c48,a6:<*>:cc:5f:9e:6a
+2855,['110c6ec8'],1.0,110c6ec8,get lock_state: <*>
+2869,['a99742dd'],1.0,a99742dd,log success for downloading <*>
