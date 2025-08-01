@@ -142,6 +142,29 @@ def load_HDFS(log_file, label_file=None, window='session', train_ratio=0.5, spli
 
     return (x_train, y_train), (x_test, y_test)
 
+def load_wifi_log(log_file, train_ratio=0.5, split_type='sequential', save_csv=False):
+    print('====== Input data summary ======')
+    print("Loading", log_file)
+    struct_log = pd.read_csv(log_file, engine='c', na_filter=False, memory_map=True)
+    data_dict = OrderedDict()
+
+    for idx, row in struct_log.iterrows():
+        session_id = row['LineId'] if 'LineId' in row else idx + 1
+        data_dict[session_id] = [row['EventId']]
+
+    data_df = pd.DataFrame(list(data_dict.items()), columns=['SessionId', 'EventSequence'])
+
+    if save_csv:
+        data_df.to_csv('data_instances_wifi.csv', index=False)
+
+    x_data = data_df['EventSequence'].values
+    (x_train, _), (x_test, _) = _split_data(x_data, train_ratio=train_ratio, split_type=split_type)
+
+    print('Total: {} instances, train: {} instances, test: {} instances'.format(
+        x_data.shape[0], x_train.shape[0], x_test.shape[0]))
+
+    return (x_train, None), (x_test, None), data_df
+
 def slice_hdfs(x, y, window_size):
     results_data = []
     print("Slicing {} sessions, with window {}".format(x.shape[0], window_size))
