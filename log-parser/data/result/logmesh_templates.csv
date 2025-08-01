@@ -1,0 +1,350 @@
+EventId,EventTemplate,Occurrences
+16b1db6b,[318] wdev_query_rsp_handle: dev_type = <*> mac = <*> ifname = <*>,8
+5213552d,[5079] wapp_reset_backhaul_config,6
+99caf5a5,[449] misc_cap <*> max_num_of_cli = 64 max_num_of_bss = 32 num_of_bss = 8 max_num_of_block_cli = 128,6
+a343b283,"<*> <*> <*> tx_stream = 2, rx_stream = 2, <*> = <*> <*> = <*> <*> = <*>",12
+709574fb,"[405] vht_cap <*> sup_tx_mcs[]= fa ff sup_rx_mcs[] = 250 255 tx_stream = 2, rx_stream = 2 sgi_80 = 1, sgi_160 = 1 vht160 = 0, vht8080 = 0 su_bf = 1, mu_bf = 1",6
+da6ee9e7,[4649] [1;31m[DPP ][0mWF6:WAPPD: Data interprate by WAPP,12
+e9b7b47c,[968] chn_list: <*> op_class = <*> op_ch = <*> band = <*> ch_list_num = <*> non_op_chn_num = <*> dl_mcs = <*>,6
+5717eadb,<*> op_class: <*> num_of_op_class = <*>,12
+2a17bfc5,[1062] bss_info: <*> table idx = <*> ssid = <*> SsidLen = <*> map role = 32 Bssid = <*> Identifier = <*>,6
+218140be,[2900] driver_wnm_btm_onoff,6
+bb73508f,[2915] driver_wnm_btm_onoff: cmd->command_body[0] = 1,6
+dad5817b,[2845] driver_rrm_onoff,6
+b4ec0a05,[377] [TOPO] port <*> DOWN,6
+d3acc15a,"[329] [TOPO] root leaf not exist, could not update topology tree",6
+4ac63523,[368] switch data not found by port index(3),1
+d2ec3709,[2048] DB NAME=./client_db.txt,1
+8808158f,[2055] Man Daemon XX version: v<*>,1
+d0e2e56a,<*> Succesfully connected to <*>,2
+48665e06,[1047] alloc 1905 cli sock_buf :15360 success!,1
+945c9bb4,"[9784] receive LIB_SYNC_RECV_BUF_SIZE (notify len:397, peer len:15360) from mapd, own real len:20480, default len:20480",1
+00874952,"[1613] _1905_SYNC_RECV_BUF_SIZE_RSP_EVENT send to mapd success, change_len:20480, rsp:1",1
+36375d30,[2100] Wapp wireless interface init success,1
+4d7dca70,[1345] LowRSSIAPSteerEdge_RE=24,1
+f87f8ade,[1338] LowRSSIAPSteerEdge_root =21,1
+5ad9a4dc,[1147] RSSISteeringEdge_DG=24,1
+9e6f6952,[1154] RSSISteeringEdge_UG=14,1
+f14f6e9a,[1082] CUOverloadTh_2G=80,1
+962a28b9,[1089] CUOverloadTh_5G_L=85,1
+31b773f5,[1096] CUOverloadTh_5G_H =85,1
+7ff37505,[1125] CUOverloadTh_6G=80,1
+95735626,[1825] MetricRepIntv=10,1
+ebf75188,[1557] <*>,27
+dbbcbbdd,[1592] MetricPolicyRcpi_5GL=90,1
+c1b4a3df,[1627] MetricPolicyRcpi_5GH=90,1
+4df61f07,[1665] MetricPolicyRcpi_6G=90,1
+b32edbc0,[1323] ActivityThreshold=3000,1
+97da8368,[1265] BTMStrForbidTime=30,1
+ef9e6ebc,[1273] BTMStrSuccessForbidTime=60,1
+20fb42fe,[1564] MetricPolicyHys_24G=5,1
+74bebbf7,[1599] MetricPolicyHys_5GL=5,1
+a76a5fe0,[1634] MetricPolicyHys_5GH=5,1
+bf69ae14,[1316] Btm_Retry_Time = 2,1
+558ce955,[1103] CUSafetyTh_2G=80,1
+5bf226a9,[1110] CUSafetyTh_5G_L=85,1
+623a2284,[1117] CUSafetyh_5G_H=85,1
+c79b82e0,[1288] MinSteEVENTetryTime=5,1
+a73006dd,[1295] MaxSteEVENTetryTime=25,1
+d2d3a774,[1162] force_roam_rssi_th=-87,1
+45b498ed,[1171] force_steerdg_rssi_th=-87,1
+46c5305e,[1222] pause_cent_str_failed_in_dec=0,1
+b13419c1,"[70] Failed to open DB file './client_db.txt', EVENTor: No such file or directory",1
+60707c79,[5848] one 1905 device created,5
+27f745b5,"[18587] cannot find suitable almac, use orginal one",1
+5cb76bc9,[18610] eth0 is eth interface; enable all tx rx,1
+32513e06,[5816] topo_srv_init_own_1905_info,1
+13b6309f,<*> peer_radio not found corresponding to identifier,14
+5236b2e2,[1286] [CH_PLANNING] check status of autoconfig = <*>,52
+32bca8bd,[6199] radio (4d:41:50:35:47:4c) orignal_bw(2) opclass(128) ch(60),1
+5b9b2709,[6199] radio (4d:41:50:32:34:47) orignal_bw(0) opclass(81) ch(2),1
+bb8d126f,[7344] mapd_get_channel_scan_capab_from_driver 7344 <*> <*>,6
+47dc1589,"[3688] [1;36m wapp_dev_list_lookup_by_band_and_type, got target_wdev <*> ifidx <*> [0m",28
+d983bdc6,[7364] mapd_get_channel_scan_capab_from_driver 7364: 2G,1
+7e3c275c,<*> ------------->,2
+dc9b4647,[5091] map_build_cac_cap 5091,1
+3acf920c,"[5127] ptr 65, map_event->length-65",1
+cf9442e6,[155] MY device CAC Mode = 0,2
+027717c3,CACCapab - hexdump(len=65): 56 4e 01 4d 41 50 35 47 4c 02 00 00 00 41 07 76 04 34 38 3c 40 79 05 64 68 6c 70 74 77 02 34 3c 7a 02 64 6c 78 02 38 40 7b 02 68 70 80 02 3a 6a 00 00 02 8a 04 79 01 78 7a 01 74 7b 01 78 80 01 7a,1
+2c36073c,R2ApCap - hexdump(len=4): 06 00 68 02,1
+85bce292,[10038] [TOPO] chnl Pref for radio <*> <*> <*> <*> MAC <*>,26
+a6d4b3a8,[5687] map_send_ch_list_dfs_info,26
+c157ceb6,[6608] WAPP_USER_GET_METRIC_REP_INTERVAL_CAP,26
+a9d8dd49,[5176] map_send_metric_reporting_capability_msg,26
+24fb2571,[5143] map_build_metric_reporting_info,26
+1ea6f054,[5151] map_build_metric_reporting_info 60,26
+a5c5d8e7,[8668] dev->metric_rep_interval: 60,26
+379ef551,[10418] wf6 tlv handling sr mode 0,26
+769e629c,[4943] map_send_ap_spt_reuse_req_msg,26
+7129941c,[2792] Solicited WAPP_AP_SPT_REUSE_REQ from WAPP: CONSUME,26
+2f9db5f6,[8785] radio_idx <*>,24
+acd7d633,"[8795] Bootup run 0, band 0",24
+ddc27d9d,[13504] radio ID <*> <*> <*> <*> Status: NOT CONFIGURED,6
+a73f0d09,[710] [1;31m[DPP ][0mMark Config 0 as valid,1
+c9e89208,[126] BH SSID = VIETTEL_5_240B2AAFB8B8,23
+6da4631f,[7626] device role is 2,1
+37d74577,[7888] mode=1,1
+c21ef3f8,[7893] router mode,1
+ae78e196,[7515] lan_interface[0]=eth0,1
+f3a9716e,[7621] wan interface is eth1,1
+36c3411b,"[6204] user prefEVENTed channel 0 , band <*>",3
+f6cdc6e1,[7858] ChPlanningInitTimeout=120,1
+d4f42ff8,[7947] NtwrkOptConnectWaitTime=60,1
+7929bf4a,[7953] NtwrkOptDisconnectWaitTime=45,1
+4319c6d5,<*> <*> = 120,2
+52ef2feb,[7838] 2G ScanThreshold=-88,1
+ceb6e9d9,[7844] 5G ScanThreshold=-88,1
+ba10a6f2,[7851] 6G ScanThreshold=-88,1
+9259d348,"[7649] Channel Planning R2 Enabled =0 , R1 ch_planning_enabled 0",1
+8d7d89dc,[7906] NetworkOptimizationEnabled=0,1
+b98183eb,<*> <*> = 1,2
+813ceda8,[7875] DhcpCtl=1,1
+3fc18bc5,[7877] enable,1
+f3c57fb9,[7884] dhcp_ctl in config file is : enable !,1
+1fbe131d,[8011] ThirdPartyConnection = 0,1
+0d5835fb,[8068] Default max_allowed_scan = 5,1
+82b7ea95,[7960] NtwrkOptPostCACTriggerTime=30,1
+0f672500,[7912] NetworkOptPrefer5Gover2G=0,1
+dfe2fcda,[7918] NetworkOptPrefer5Gover2GRetryCnt=0,1
+a6ad67b3,[7658] Channel Planning R2 Enabled_bw =1,1
+2059c873,[7967] NtwrkOptDataCollectionTime=60,1
+d2a731e6,[7869] ChPlanningScanValidTime=14400,1
+874a56d7,[7924] NetOptUserSetPriority=0,1
+fadba1fe,[8101] VtRssiThreshold = -62,1
+7c94a0e5,<*> <*> = 00:00:00:00:00:00,2
+43c4191d,[8238] 1905dev own is R2,1
+cf853792,<*> <*> BH priority = <*>,2
+8d4d4607,[2137] map glbl dev:2,1
+014a1dec,"[2166] [AUTO_ROLE] role(2), cancel drop flag to mapfilter",1
+087c40f0,[573] [NETOPT] conn 60 dis 45,1
+a51ec4c4,[295] vt_init_ubus_TMS_reporter() return OK,1
+95fe63cb,<*> [TOPO] reset <*> to <*> for dev <*>,8
+7f93a963,<*> [TOPO] <*> not found in MAP dev list,94
+febcfd2d,[1685] receive 802.1 bridge discovery fail,5
+4983a52c,[2827] [BEST_AP_SELECT] bh_entry->ifname: <*> bh_entry->priority_info.priority = <*> ctx->current_connect_priority: <*>,16
+47879371,[2881] [BEST_AP_SELECT] apclix0 matches current priority,6
+cab76a71,[2916] [BEST_AP_SELECT] Total Profiles: 1,3
+13bd5bfe,[2928] [BEST_AP_SELECT] Ssid to Scan VIETTEL_5_240B2AAFB8B8,3
+40e441a5,[2434] map_receive_scan_request,3
+aae87994,[3521] 1-iwpriv apclix0 set SiteSurvey=;,3
+83082181,[2033] RNR ch 0 op 0,3
+01921ba1,[3481] scan_done: wdev_handle_scan_results,3
+a777828a,[564] [BEST_AP_SELECT] ctx->bh_steer_bssid00:00:00:00:00:00,3
+2ee91509,[285] [BEST_AP_SELECT] [AP-DEBUG] ctx->vt_rssi_threshold=-62,3
+0ee261ae,"[315] [BEST_AP_SELECT] mixed bss: 0, IE: 1, uplink: <*>",3
+9e2a1a45,[350] [BEST_AP_SELECT] vt <*>,3
+65ae9117,"[361] [BEST_AP_SELECT] map_vendor_ie_found=1, Rssi -62, rate_estimated=1720, uplink_rate=7205, root_distance=2, uplink_rate_score=2198",1
+a3a8bdb8,[621] [BEST_AP_SELECT] BSS <*> rate score <*>,3
+12c57e89,[640] [BEST_AP_SELECT] save Last Score <*>,2
+26a6155f,"[361] [BEST_AP_SELECT] map_vendor_ie_found=1, Rssi <*> <*> uplink_rate=2725, root_distance=1, <*>",2
+fcda94d7,[647] [BEST_AP_SELECT] ap rate[1999] less than max rate[2198],1
+6b3d0917,[554] [BEST_AP_SELECT] Connection attempt not allowed on this one.apcli0,3
+a23ec14f,[654] [BEST_AP_SELECT] selected one bss,2
+c19e6eb2,[1820] [BEST_AP_SELECT] central channel = 155,2
+992179f3,[1825] [BEST_AP_SELECT] connection ht_40 = 1 vht_160 1 vht_8080 0 he_160 0,2
+fac739ac,[1829] [BEST_AP_SELECT] max bw vht_5g = 1 ht_5g 1 ht_2g 0,2
+76b5f724,[1835] [BEST_AP_SELECT] connection interface is apclix0,2
+587304de,[3689] map_config_backhaul_connect_msg,2
+a5912bbf,[3713] bh_steer_if: apclix0,2
+8f792df7,[3968] set ch: ifname = <*> ch = <*>,2
+400c76bd,[4022] [wdev_set_ch] Send Channel Command: wifi_config_save <*> Channel <*> ret = 0,2
+f1480388,[3988] bh_link_ready: 0,2
+22327f3a,[3989] [map_config_backhaul_connect_msg]: backhaul_mac(2e:0b:2a:bf:e9:69),2
+25d1ca63,[3990] [map_config_backhaul_connect_msg]: <*>,2
+142629e2,[1733] wapp_event_offchannel_info 0,1
+7d3ce959,[1352] connectivity_to_controller (1),1
+502869f1,<*> <*> wifi link mac: 2e:0b:2a:bf:e9:69 <*>,3
+4f8cc7af,[3215] [BEST_AP_SELECT] bh state <*> sub state <*>,3
+3465cea1,[3422] [BEST_AP_SELECT] XXXXXXXXXXXXXXXXXXXXXXXXXXX received LinkUp For apclix0,2
+992b834b,[3438] [BEST_AP_SELECT] State change IDLE,2
+19f48bba,[3441] [BEST_AP_SELECT] Current BH Sub state 0,2
+1657392c,<*> [BEST_AP_SELECT] uplink bss <*> for iface 2e:0b:2a:bf:e9:69,3
+8d67dc1f,[8346] BSSID info not yet updated,1
+78b2602e,[8981] [1;31m[DPP ][0mEnrollee first auth not found,2
+98f8e784,[2515] [1;31m[AUTO_CONFIG][0m[wifi case]apclix0 linked to <*>,2
+f90847c7,[2522] [1;31m[AUTO_CONFIG][0m[AP-DEBUG] map_bh_ready linked to <*> (bh.bssid),2
+2d9367de,[2523] [1;31m[AUTO_CONFIG][0m[AP-DEBUG] device_status->status_bhsta: <*>,2
+10da270d,"[2524] [1;31m[AUTO_CONFIG][0m[AP-DEBUG] bh.mac_addr 2E:0B:2A:BF:E9:69, bh_ifname:apclix0",2
+96edea75,[1462] FHBSS Status: <*> BHSTA Status: <*>,23
+96c65d0f,[653] [AUTO_CONFIG] got bh ready type=1,2
+d8fd009f,[722] [AUTO_CONFIG] [wifi case]receive WAPP_MAP_BH_READY!!!,2
+ae990277,[746] updated bssid of mac entry,2
+c6f1548a,[9091] [AUTO_CONFIG] [LIB_MAP_BH_READY] apcli(apclix0-2e:0b:2a:bf:e9:69) connect to <*>,2
+7e9dac61,[9133] [TOPO] [LIB_MAP_BH_READY]no topo msg from neighbor dev(00:00:00:00:00:00) with peer intf(26:0b:2a:ff:e9:51),1
+24936a7e,[11435] [TOPO] tx multicast <*> with vs tlv on apclix0,6
+e74da349,"[147] [INFO] bh_link_ready, send ap_autoconfig_search",2
+3f668224,[150] [AUTO_CONFIG] [bk_link_ready] send search,2
+587906d6,[108] [AUTO_CONFIG] tx multicast search <*> on all intf,10
+18542ad1,[468] vt_enable_dhcp_client DeviceRole: 2,3
+e1165da5,[347] [disable_dhcp_server]: command: uci set dhcp.lan.ignore=1; uci commit; /etc/init.d/dnsmasq reload,3
+b9f72629,[488] [DHCP] enable dhcp client at br-lan,3
+e3b7fe43,[165] [AUTO_CONFIG] [wait_4_recv_controller_search_rsp] retry search,8
+64a0e090,[982] [AUTO_CONFIG] find the conroller al_mac=24:0b:2a:af:b8:b8,3
+9132c1c3,"[996] [AUTO_CONFIG] recv the autoconfig search rsp, notify the wapp search done",2
+b7c2f1f8,[173] [AUTO_CONFIG] [controller_search_done],2
+15f8805e,[268] [AUTO_CONFIG] trigger <*> to do auto-configuration,35
+07fd5299,[302] [AUTO_CONFIG] tx WSC <*> to (24:0b:2a:af:b8:b8) on apclix0,35
+ec25f519,[6288] [1;31m[AUTO_CONFIG][0m[WAPP_USER_MAP_CONTROLLER_FOUND]ctrler_found,2
+08c514f9,[788] [AUTO_CONFIG] recv WSC <*> from (24:0b:2a:af:b8:b8),22
+8669edbb,[19367] <*> is <*> bss; <*> all tx rx for this interface,33
+d01d010f,"[214] [BH_CONFIG] <*> P1_disallow=0, P2_disallow=0",33
+d7101fc7,[222] [AUTO_CONFIG] <*> <*> config_SSID=VHT KEANGNAM hidden_ssid=0,20
+d37c04ad,[1110] [AUTO_CONFIG] received _1905_SET_WIRELESS_SETTING_EVENT,22
+3c0c014b,[6149] [1;31m[AUTO_CONFIG][0mreceived WAPP_USER_SET_WIRELESS_SETTING!!!,22
+2f6de1af,"[2884] [1;31m[AUTO_CONFIG][0mwireless_setting0 <*> ssid=VHT KEANGNAM, autmode=0x0020, encryptype=0x0008, key=123456a@ bh_bss=0, fh_bss=1 hidden_ssid=0",20
+4c8477e1,[4392] ifname <*> i_am_fh_bss <*> i_am_bh_bss <*> need_disconnect <*>,5
+59e29792,[264] [AUTO_CONFIG] auto-configuration done on the radio,22
+80481af0,[1440] got ts settings <*>,22
+a4b136b0,"[3690] set security_and_ssid_info: ifname = <*> ssid = VHT KEANGNAM, auth = WPA2PSK, encrypt = AES, passphrases = 123456a@",2
+4e7406fc,"<*> set <*> ifname = ra0, <*> = <*>",4
+4b5f393b,[4279] set ssid: ifname = <*> ssid = MAP-UNCONF,5
+1acee5d0,[713] driver_wext_set_oid: oid=0x992 len (10) failed,5
+15603ea8,[1887] [driver_wext_set_ssid] driver_wext_set_oid fail,5
+e3853351,[3147] [1;31m[AUTO_CONFIG][0mbss stop for <*>,5
+4ec443b0,[3240] [1;31m[AUTO_CONFIG][0mradio <*> cardid=0001 set MAP_CONF_CONFED,2
+82cde033,[6156] [1;31m[AUTO_CONFIG][0msend WAPP_OPERBSS_REPORT to notify mapd get operating channel info;radio capability info(ht/vht/channel preference/...),22
+a5ad5728,[561] update ssid to VHT KEANGNAM for <*>,2
+adb7002a,[9655] fh setting <*>,22
+5524ae7c,[9659] fh setting <*> <*> vid=4095,43
+02026992,[962] device is null,7
+798c0fef,[9787] centre_freq_channel = <*> radio->operating_channel = <*>,33
+75e786c7,[9870] Non Operable channel on inactive BH,33
+44fdb9a4,[381] [CH_PLANNING] check status of autoconfig func=_1905_update_channel_pref_report line=381 return=1,33
+c4484d17,[666] [1;31m[DPP ][0mBH Config SSID : VIETTEL_5_240B2AAFB8B8,22
+98c1e4df,[222] [AUTO_CONFIG] [priority]interface=rax3 priority=9 config_SSID=VIETTEL_5_240B2AAFB8B8 hidden_ssid=1,11
+3e5d2e51,[741] [AUTO_CONFIG] auto-configuration done,11
+24e18cf7,[13504] radio ID <*> <*> <*> <*> Status: CONFIGURED,42
+1bf16e6b,"[2884] [1;31m[AUTO_CONFIG][0mwireless_setting1 intf_mac=26:0b:2a:ff:e9:69 ssid=VIETTEL_5_240B2AAFB8B8, autmode=0x0060, encryptype=0x0008, key=6d2c48d5 bh_bss=1, fh_bss=0 hidden_ssid=1",11
+42dd99d4,[2906] [INFO] Agent release and renew DHCP,11
+bbc059a5,"<*> set <*> ifname = rax0, <*> = <*>",4
+dcbda700,"[3690] set security_and_ssid_info: ifname = <*> ssid = <*> auth = <*> encrypt = AES, passphrases = <*>",3
+0410a241,"<*> set <*> ifname = rax3, <*> = <*>",2
+7cd10759,[2787] set_bh_wsc_profile,11
+431b231b,[6053] [1;31m[AUTO_CONFIG][0mauto config done!!!,21
+7aba6f32,[561] update ssid to <*> for <*>,3
+da324cf6,[8936] Add <*> to topo_channels,9
+cb2befc0,[1525] [TOPO] port change!!! prev_port(0) new_port(-1),2
+7d2bc0f1,[582] [TOPO] local intf(apclix0) add 1905 <*>,3
+e8af8439,[495] [TOPO] tx <*> on intf(apclix0) to <*>,2
+538b70a6,<*> [TOPO] <*> multicast <*> on all intf,4
+f6f3dece,[5933] [TOPO] new_db!!! create <*> for <*>,8
+7f55070b,[5774] [TOPO] neighbor almac <*>,16
+6ba2e15b,[5775] [TOPO] conn_iface <*> new_link <*>,16
+4f6f6cdf,[5776] [TOPO] neighbor_iface <*>,16
+56ca6b6e,<*> [TOPO] create <*> for <*>,8
+2ed92529,[6003] [TOPO] set <*> <*> upstream dev to <*>,3
+39bdd93b,[4683] [BEST_AP] New 1905 device connect to network,8
+d23b0bc9,[1232] [NETOPT] Connect <*>,12
+51212b4f,[4589] sending sr mode to <*> sr mode 0,20
+ee1fc3d8,[1028] IFace Radio is NULL,5
+9f819af2,"[7482] [TOPO] own dev has eth(0)/wifi(2) neighbor, clear switch and bridge table",3
+986a8025,[2105] [TOPO] tx <*> to 1905.1 <*> on apclix0,21
+25650755,[372] [TOPO] leaf add! <*>,2
+ae066894,[7492] [TOPO] send garp only on apcli interface,7
+33c335d8,[3181] [BEST_AP_SELECT] garp req count <*>,7
+3225d9e0,[6869] [TOPO] conn_iface set!!! <*> <*> <*>,5
+b8d05c63,[7048] [TOPO] neighbor_iface set!!! <*> <*> <*>,5
+b2c9404b,[4690] [BEST_AP] Send scanning request for bad AP scanning times is 0,5
+be77dc5f,[10999] Its APCLI interface: <*>,2
+b1eaac6a,"[6487] ***Radio is NULL, Check !!",4
+712564f8,[240] [TOPO] leaf <*>,16
+db562d55,[14050] device->_1905_sr_mode = msg->mode <*>,29
+753ac139,<*> can't found controller.,7
+0ee73215,[7055] [TOPO] neighbor_iface set!!! niface-eth(26:01:2a:af:b8:b8) ciface(24:0b:2a:bf:e9:4a) dev(24:0b:2a:af:b8:b8),1
+c5c12805,[6877] [TOPO] conn_iface set!!! niface(24:0b:2a:bf:e9:4a) ciface-eth(26:01:2a:af:b8:b8) dev(24:0b:2a:bf:e9:4a),1
+81443a45,[360] cli <*> <*> join local BSS <*>,286
+001c8d41,[805] RSSI not valid (RSSI=0),24
+8811d0b3,[14011] [===]Set operating 2G channel,1
+b808464f,[14024] IDENTITY 2G: 4d:41:50:32:34:47,1
+417ff67c,[1456] [1;31m[DPP ][0mch_num: 1,1
+9d9ef71c,<*> Op Class=81,2
+5395c478,"[1417] Config ifname = , channel = 6",1
+494a4231,"[1420] same channel with wdev->radio (6), dont bother to swtich",3
+e9f36764,"[1383] [Steer] Tried 0x10 str_methods, but could not go past DECISION state, prohibit cli <*> <*> for <*>",64
+f457fc85,[491] client <*> leave bssid <*>,227
+f83aad4c,[3007] [BEST_AP] Check Agent,2
+02437807,[3025] [BEST_AP] Good AP <*>,2
+e53df66e,<*> Remote <*> <*> notific for a client that has not been seen yet <*>,54
+aab343d2,[449] cli <*> <*> supports new channel <*>,75
+b65d25eb,[1147] cli <*> <*> current <*> new <*>,73
+d7c4458b,[4467] disconnect sta: sta = <*>,139
+447a0245,[486] client <*> Stale Local leave <*> (curr bss <*>,148
+6514134f,[166] resend_message <*> <*> <*> to apclix0 almac=24:0b:2a:af:b8:b8 <*> <*>,935
+9350e971,[455] File remove fail,1
+5016bc30,[1339] insert <*> in <*>,4
+209c20dd,[356] Got local join for client <*> at bss <*> that has not left me/remote BSS <*>,143
+4e8dde0b,[608] [TOPO] timeout!!! del non neighbor <*>,6
+8211e849,[18774] [TOPO] mark <*> invalid,23
+a642126d,<*> [TOPO] mark <*> valid,14
+cebf9279,<*> [TOPO] leaf delete from <*>,14
+446bcf10,<*> del R3 sec info after 30 sec,16
+55b87acd,[9476] associated client <*> found in bss <*> update associated client,62
+b3973d2e,[166] resend_message Unassoc STA Link Metrics Response to apclix0 almac=24:0b:2a:af:b8:b8 <*> <*>,38
+89707bdb,[1312] sta mac: <*> reset COORD_STATE_IDLE,2
+7cdbe18c,[1008] clear sec info for <*>,4
+f4fce77d,[440] delete entry of <*>,4
+15e753e2,"[1014] sta <*> <*> op_class=128, channel=157",736
+ea9efab1,[734] [Steer] Send BTM Request to STA <*> <*> Target bss <*> channel <*> opclass <*>,709
+01cbae91,[1108] [Steer] Recv BTM Response STA: <*> Target: <*> <*>,2103
+7c6b5ea1,[166] resend_message Client <*> <*> <*> to apclix0 almac=24:0b:2a:af:b8:b8 <*> <*>,79
+2274e660,[19418] do not store this dm_buffer to prevent malicious attacks <*>,11
+9b69c6fa,[940] chan_mon_handle_steering_req: existing steer request there... 31: <*>,8
+14209492,[3226] [BEST_AP_SELECT] *****************************************received LinkDown For apclix0,1
+bbcf836a,[3301] [BEST_AP_SELECT] bh entry iface apclix0 Channel 157,1
+f581a28d,[3338] [BEST_AP_SELECT] State change to Link Down,1
+33e8b8f0,[3380] [BEST_AP_SELECT] Issue Scan,1
+b1695e28,[9157] backhaul link down(apclix0-2e:0b:2a:bf:e9:69),1
+6f37f9e7,[9202] [TOPO] [WAPP_NOTIFY_WIRELESS_BH_LINK_DOWN]del discovery(24:0b:2a:bf:e9:50) peer intf(26:0b:2a:ff:e9:51) recv intf(2e:0b:2a:bf:e9:69),1
+50e67add,[896] [TOPO] del <*> on apclix0,2
+10bc0204,[9211] [TOPO] [WAPP_NOTIFY_WIRELESS_BH_LINK_DOWN]del topology rsp,1
+dfbd98ba,[4765] [TOPO] link invalid!!! need remove link <*> <*> <*>,4
+953a00c9,[12205] [TOPO] link invalid!!!remove link <*> <*> from <*> to <*>,4
+70432f8b,[4788] [TOPO] need remove <*> on <*>,4
+6f1f5e46,[12244] [TOPO] remove <*> on <*>,4
+10273ec8,"[2460] [BEST_AP_SELECT] Do not issue connect, no best AP found",1
+4d87892d,[2952] [BEST_AP_SELECT] connection attempt on currrent priority failed,1
+b1dcfa67,[2509] [BEST_AP_SELECT] Decrement Single Channel Scan Count <*>,2
+2209bb47,"[475] [BEST_AP_SELECT] Not a sibling, can connect",1
+ab68d5bb,[3959] return from wdev_set_ch due to same channel157,1
+3ec02676,"[299] receive new send tlv, replace old one(1046576009)",1
+8deb37e2,[9104] [TOPO] [LIB_MAP_BH_READY]no discovery!!! recv response from neighbor(24:0b:2a:bf:e9:c6) peer itf(26:0b:2a:ff:e9:c7),1
+d4a0e81f,[9105] [TOPO] [LIB_MAP_BH_READY]add neighbor info and discovery to db,1
+f85390d7,[4900] [TOPO] insert discovery db!!! al_mac(24:0b:2a:bf:e9:c6) peer intf(26:0b:2a:ff:e9:c7) recv intf(2e:0b:2a:bf:e9:69),1
+1f782bc5,"[11868] [DHCP_CTL] AGENT find controller in_network: 0-->1, enable dhcp client update device ip!",2
+564a5068,[3177] [BEST_AP_SELECT] sending garp for <*>,41
+1f6fa54a,[566] [TOPO] timeout!!! del neighbor(24:0b:2a:bf:e9:c6),1
+8da7570c,[577] [TOPO] timeout!!! no discovery in db; del rsp(24:0b:2a:bf:e9:c6),1
+799f64e9,[5669] (5669): cli <*> ptk size <= 0,7
+d2e18004,[991] enrolle_state mismatch,1
+ed4523d9,[4784] map_build_ap_wf6_cap WF6:WAPPD: target wdev is NULL,20
+842fb04a,[2296] bh entry is not valid yet,1
+f5c1977e,[8974] invalid data from wapp! type=0x00c1,1
+2b8e4f3d,[3451] topo server doesn't have (24:0b:2a:bf:e9:68) with neighbor(24:0b:2a:bf:e9:c6),1
+026817f9,[3453] connected(2e:0b:2a:bf:e9:69) n_iface(00:00:00:00:00:00),1
+3a03656e,[869] EVENTor tx link metrics tlv,1
+f558078f,"[19478] almac=24:0b:2a:af:b8:b8 ifname=apclix0, mid=38264",1
+74d29a32,[896] recv renew message from 24:0b:2a:af:b8:b8,22
+1947280b,"[1414] [AUTO_CONFIG] wsc_function EVENTor, type = 0x101a",7
+07be1541,[724] [AUTO_CONFIG] parse_wsc_attr_tlv EVENTor,7
+7b3ccf8a,[2949] [AUTO_CONFIG] EVENTor wsc tlv,7
+5e4ad7fd,[3830] [AUTO_CONFIG] receive EVENTor <*> message from (24:0b:2a:af:b8:b8),7
+1a191f32,[690] agent_apply_new_config ++,9
+1e498c5f,[1179] flash_wsc_config ++,9
+35e64431,[334] _1905_flash_out_config ++,9
+803ffe87,[337] itf_name: <*>,18
+5dcde884,[3231] drop <*> aldev_mac(24:0b:2a:bf:e9:50) msgtype=0x0007,4
+772c8f22,"[5783] No more room to accomodate 2e:0b:2a:bf:e9:51, that has joined a BSS on another device",1
+961cc3dd,[166] resend_message Client Assoc Control Request to apclix0 <*> <*> retry_cnt_left=2,25
+4cdb2fac,"[4015] <*> EVENTor in STEERING_REQUEST_TYPE tlv, need send EVENTor tlv in 1905 ack",29
+8a5c1317,"[2371] Uinitialized radio, continuing",4
+5b803a24,[1119] cli has already left current dev:5a:8c:17:08:48:69,1
+0a46c012,"[1014] sta mac(0)=26:6d:ec:63:38:a9, target_bssid(0)=24:0b:2a:bf:e9:69, op_class=81, channel=6",1
+78997729,[1301] [TOPO] detect eth neighbor(24:0b:2a:bf:e9:4a),1
+63c59d32,[2155] internal used vendor specific message,1
+8b672707,[3733] handle 1905 internal using vendor specific message,1
+19aeaefe,"[2211] vendor specific internal message, subtype=03",1
+fc2ffb3e,<*> receive internal_vendor_wts_content_message_subtype message <*>,2
+f43f01d0,[1055] _1905_write_wts_file_content,1
+547f0b5b,[222] [AUTO_CONFIG] <*> <*> config_SSID=ducndc hidden_ssid=0,2
+0c1e868f,"[2884] [1;31m[AUTO_CONFIG][0mwireless_setting0 <*> ssid=ducndc, autmode=0x0020, encryptype=0x0008, key=123456a@ bh_bss=0, fh_bss=1 hidden_ssid=0",2
+9ec7e17f,[1353] Auth Rej for client 00:00:00:00:00:00 not in DB,13
