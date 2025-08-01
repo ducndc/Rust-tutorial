@@ -39,7 +39,7 @@ if __name__ == '__main__':
     # Gắn nhãn và lưu dòng bất thường
     test_df['Anomaly'] = y_test
     anomalies = test_df[test_df['Anomaly'] == 1]
-    anomalies.to_csv('anomalies_detected.csv', index=False)
+    anomalies.to_csv('./results/anomalies_detected.csv', index=False)
 
     print(f'\n✅ Phát hiện {len(anomalies)} log bất thường.')
-    print(f'➡️ Lưu tại: anomalies_detected.csv')
+    print(f'➡️ Lưu tại: results/anomalies_detected.csv')
