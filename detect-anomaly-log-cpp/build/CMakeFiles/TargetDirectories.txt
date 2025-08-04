@@ -1,4 +1,0 @@
-/home/ont/Documents/log-anomaly-detection/detect-anomaly-log-cpp/build/CMakeFiles/pca_detector.dir
-/home/ont/Documents/log-anomaly-detection/detect-anomaly-log-cpp/build/CMakeFiles/DetectAnomalyLogByPCAWithoutLable.dir
-/home/ont/Documents/log-anomaly-detection/detect-anomaly-log-cpp/build/CMakeFiles/edit_cache.dir
-/home/ont/Documents/log-anomaly-detection/detect-anomaly-log-cpp/build/CMakeFiles/rebuild_cache.dir

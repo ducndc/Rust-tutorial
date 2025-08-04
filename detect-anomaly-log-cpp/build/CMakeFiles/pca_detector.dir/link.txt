@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpca_detector.a CMakeFiles/pca_detector.dir/PCA_AnomalyDetector.cpp.o
-/usr/bin/ranlib libpca_detector.a

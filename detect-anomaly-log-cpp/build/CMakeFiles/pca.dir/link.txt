@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/pca.dir/main.cpp.o -o pca  libpca_detector.a 
