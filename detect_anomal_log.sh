@@ -5,7 +5,7 @@ echo "************* GET LOG **************"
 cd ./data/original_log
 tar -xvf apw6*
 cat logmesh.old logmesh > logmesh
-cat messages.old messages > messages 
+cat messages.old messages > messages
 
 cp logmesh ../input_log/logmesh
 cp messages ../input_log/messages 

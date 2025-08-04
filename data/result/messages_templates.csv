@@ -1,0 +1,523 @@
+EventId,EventTemplate,Occurrences
+1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>,3880
+07a7d844,<*> c2:bc:c6:<*>:3c:9a,16
+783333bd,<*> <*> wrong address,53
+dd94ac01,<*> c2:bc:c6:<*>:3c:9a iPhone,12
+5fe665a4,<*> ce:c8:9d:<*>:c5:1e,48
+3c9e700b,<*> ce:c8:9d:<*>:c5:1e Watch,48
+bf1d534d,3e:<*>:<*>:ac:1c:<*>,6
+8fc5c7fc,<*> 3e:<*>:<*>:ac:1c:<*>,11
+be9d1b55,<*> 3e:<*>:<*>:ac:1c:<*> tuanhace-s-Samsung-S20-FE,5
+c792cbf0,<*> <*>:3f:de:dc:cc:<*>,13
+2f88821e,<*> <*>:3f:de:dc:cc:<*> iPhone,13
+453251a9,<*> a2:<*>:d5:b6:<*>:<*>,647
+f749ce53,<*> a2:<*>:d5:b6:<*>:<*> Mac,647
+5c76f617,<*> <*>:<*>:db:<*>:6b:<*>,6
+2d4bc3a8,aa:c5:df:ca:4d:<*>,2
+3a326a1b,<*> aa:c5:df:ca:4d:<*>,4
+9332a37d,<*> aa:c5:df:ca:4d:<*> Redmi-Note-<*>-Pro-5G,2
+a89f3f7c,8a:1f:9d:da:bf:<*>,1
+c9b71b15,<*> 8a:1f:9d:da:bf:<*>,3
+2524c50e,<*> 8a:1f:9d:da:bf:<*> S21-FE-cua-Hieu,2
+e3d1b03e,56:<*>:0b:5d:db:e<*>,3
+a63ad171,<*> <*>:<*>:0b:5d:db:e<*>,6
+755af120,<*> <*>:<*>:0b:5d:db:e0 S21-cua-Trung,3
+a0ecd49b,<*> <*>:e9:ec:7d:dd:<*>,8
+93c9eb27,<*> <*>:e9:ec:7d:dd:<*> iPhone,8
+c6c5c5c3,<*> ce:<*>:9d:<*>:2a:c<*>,14
+7229368a,36:f9:4a:<*>:<*>:d<*>,4
+3e251333,<*> <*>:f9:4a:<*>:<*>:d<*>,9
+14c324e2,<*> <*>:f9:4a:<*>:<*>:d1 iPhone,5
+9d1290e9,92:<*>:cf:1e:e6:e<*>,1
+951b403f,<*> <*>:<*>:cf:1e:e6:e<*>,5
+24dc1a1d,<*> <*>:<*>:cf:1e:e6:e2 iPhone,4
+49e4dc2c,<*> b6:f4:<*>:<*>:<*>:6a,4
+4a571aa4,Path is invalid: Device.Ethernet.Interface.<*>.MACAddress,272
+a329b4ba,Path (Device.Ethernet.Interface.<*>.MACAddress) does not exist in the schema,272
+ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>,130
+0682ded2,fe:b4:d3:cd:6a:<*>,3
+49a000ab,<*> fe:b4:d3:cd:6a:<*>,7
+13a1f37f,84:7a:b6:e9:<*>:4f,1
+a5d447e1,<*> <*>:7a:b6:e9:<*>:4f,13
+f7b215e5,<*> <*>:7a:b6:e9:<*>:4f <*>,12
+ab8f69a7,aa:ae:a1:<*>:a6:5b,1
+c4f782cc,<*> aa:ae:a1:<*>:a6:5b,5
+44f9cf49,<*> aa:ae:a1:<*>:a6:5b Redmi-12C,4
+47e0bc64,82:5b:c4:dc:bc:c<*>,3
+b6a4c0f2,<*> <*>:5b:c4:dc:bc:c<*>,5
+c692c8dd,<*> <*>:5b:c4:dc:bc:c0 iPhone,2
+366f9c18,1a:af:ac:e2:8b:2c,5
+4c446caf,<*> 1a:af:ac:e2:8b:2c,12
+f0a54398,<*> 1a:af:ac:e2:8b:2c iPhone,7
+a8062b8d,<*> <*>:d5:ec:1c:b7:<*>,42
+efe1b76b,<*> <*>:d5:ec:1c:b7:<*> Mac,42
+dcebd7db,<*> e4:a7:a0:<*>:f6:3b,10
+e2762b6c,<*> e4:a7:a0:<*>:f6:3b DESKTOP-KN-<*>,8
+3122f54d,<*> refused to do a recursive query,178
+fb781701,<*> <*>:<*>:a8:e8:<*>:be,53
+ac4f63f9,66:<*>:<*>:ff:a9:<*>,1
+f22c37b0,<*> <*>:<*>:<*>:ff:a9:<*>,3
+653a3bca,<*> <*>:<*>:<*>:ff:a9:<*> OPPO-Reno12-F-5G,2
+25373807,<*> <*>:d8:4a:6c:6e:<*>,8
+add2368d,<*> <*>:d8:4a:6c:6e:<*> 21081111RG,7
+f5d9bd0f,<*> f4:7b:<*>:<*>:<*>:e<*>,3
+6e20601d,<*> f4:7b:<*>:<*>:<*>:e7 DESKTOP-8Q6SJBU,3
+b230f18c,56:e0:<*>:c7:de:dc,1
+3d69d7a3,<*> <*>:e0:<*>:c7:de:dc,3
+76ebb476,<*> <*>:e0:<*>:c7:de:dc 21061119AG,2
+10623784,<*> <*>:<*>:dd:<*>:2f:1e,1
+3f396d9e,<*> <*> wrong network,10
+d9237703,<*> da:b2:<*>:2b:e5:7a,1
+43e50a78,<*> da:b2:<*>:2b:e5:7a iPhone,1
+4241470f,renew to <*>,136
+b61ad709,(<*>): udhcpc: sending renew to <*>,136
+6902cd8e,"of <*> obtained, lease time <*>",136
+1b437da8,"(<*>): udhcpc: lease of <*> obtained, lease time <*>",136
+4f92bd71,on receipt of SIGTERM,136
+08c41d1c,"rebinding protection is active, will discard upstream RFC1918 responses!",136
+d23f15ef,<*>/<*> responses,136
+49a3275f,to system UBus,136
+7907a6ac,version <*>.<*> cachesize <*>,136
+032d79f1,time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-cryptohash no-DNSSEC no-ID loop-detect inotify dumpfile,136
+29ddc60e,support enabled: connected to system bus,136
+6698555c,"IP range <*> -- <*>, lease time 12h",136
+15115865,sockets bound exclusively to interface br-lan,136
+0ba36a6f,only locally-known addresses for domain <*>,1904
+c9a1699f,/tmp/resolv.conf.d/resolv.conf.auto,136
+092d69a5,nameserver <*>#<*>,272
+99e4c517,/etc/hosts - <*> addresses,136
+809d9f7a,/tmp/hosts/odhcpd - <*> addresses,136
+16c94763,<*> - <*> addresses,272
+868fd474,a8:fe:9d:b6:b8:<*>,3
+8d79863c,<*> a8:fe:9d:b6:b8:<*>,5
+0d3b5221,<*> a8:fe:9d:b6:b8:<*> MsHuong,2
+4421f563,<*> ac:2b:6e:7b:<*>:8b,5
+7e1f8ab6,<*> ac:2b:6e:7b:<*>:8b DataPlane-Epc,5
+2dd01c61,<*> be:f6:<*>:<*>:6c:c<*>,9
+d42f3d69,<*> be:f6:<*>:<*>:6c:c5 iPhone,8
+e13f7e98,de:<*>:ca:b1:ca:<*>,2
+ab6a2abc,<*> de:<*>:ca:b1:ca:<*>,6
+71fc4c99,<*> de:<*>:ca:b1:ca:<*> S24-FE-cua-Dung,4
+4bb6c954,"STRATUM, stratum=<*> interval=<*> offset=<*>.<*>",31
+b0db4406,<*> 9e:f6:8d:<*>:<*>:<*>,3
+e228edf7,<*> 9e:f6:8d:<*>:<*>:<*> iPhone,1
+86f2d34a,<*> 5e:ea:db:dd:ce:<*>,17
+e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone,16
+3b84a8de,<*> 0a:<*>:a3:9a:<*>:<*>,4
+9aa6f3d1,<*> 1e:<*>:<*>:8d:<*>:<*>,5
+e98d2dff,<*> 1e:<*>:<*>:8d:<*>:<*> Le-s-S22-Ultra,5
+6e9ea9f7,<*> c6:<*>:<*>:<*>:<*>:c<*>,4
+dfe479a8,<*> c6:<*>:<*>:<*>:<*>:c0 iPhone,2
+9c44c060,6e:ff:<*>:e0:a6:<*>,7
+7968dd5d,<*> 6e:ff:<*>:e0:a6:<*>,23
+f466e998,b0:e4:5c:<*>:6f:da,4
+111dc36d,<*> b0:e4:5c:<*>:6f:da,9
+5d1dcd06,<*> b0:e4:5c:<*>:6f:da Samsung,5
+882b1b09,<*> ce:<*>:1e:b0:<*>:<*>,4
+7c7e7298,<*> fa:c4:<*>:f3:<*>:d<*>,10
+a6b02732,<*> fa:c4:<*>:f3:<*>:d7 iPhone,8
+c42e6d41,<*> b2:1a:3f:4c:3e:9e,1
+5ded15fa,<*> b2:1a:3f:4c:3e:9e S22-Ultra-cua-Ngoc,1
+d9d8bc50,<*> 2a:f2:9c:d0:0f:<*>,20
+144f14b3,<*> 2a:f2:9c:d0:0f:<*> iPhone,12
+57e57215,16:<*>:a8:e8:<*>:be,5
+4912ab01,<*> 8e:2c:e6:0f:3f:<*>,3
+ccc4afe9,<*> 8e:2c:e6:0f:3f:<*> iPhone,3
+c5467a46,<*> ee:ce:f9:4f:<*>:<*>,5
+30409eee,<*> ee:ce:f9:4f:<*>:<*> Phan-s-S24-Ultra,2
+8bedd47e,<*> ba:<*>:<*>:a6:<*>:c<*>,13
+0a85e6cb,<*> ba:<*>:<*>:a6:<*>:c6 iPad,13
+977c7b32,<*> 4c:bb:<*>:ba:a3:d<*>,12
+856da202,domain vttek.vn for DHCP host name DS-ANHPT<*>,12
+88209579,<*> 4c:bb:<*>:ba:a3:d4 DS-ANHPT<*>,12
+c523ee0e,<*> <*>:cd:2d:0c:2d:<*>,4
+e7a1b934,<*> <*>:cd:2d:0c:2d:<*> iPhone,4
+34a3889b,<*> b6:ab:1a:<*>:4a:ec,146
+83c34da8,<*> 3a:<*>:<*>:f3:fa:bd,13
+83d3cc76,<*> 3a:<*>:<*>:f3:fa:bd iPhone,9
+d9d01975,<*> 0c:6a:c4:2a:<*>:<*>,15
+93208a07,<*> 0c:6a:c4:2a:<*>:<*> iPhone,15
+74779289,fa:7b:fa:d4:<*>:<*>,5
+8fb50751,<*> fa:7b:fa:d4:<*>:<*>,11
+cbf254c2,<*> fa:7b:fa:d4:<*>:<*> Redmi-Note-<*>,6
+1b28e1e9,<*> <*>:c8:<*>:<*>:<*>:1b,13
+894493b4,<*> <*>:c8:<*>:<*>:<*>:1b iQOO-Z9-Turbo,9
+f084babf,<*> 2a:5b:ce:fb:<*>:eb,108
+eda20fec,a2:5f:<*>:<*>:<*>:<*>,4
+5d6eac43,<*> a2:5f:<*>:<*>:<*>:<*>,9
+16c83bf8,<*> a2:5f:<*>:<*>:<*>:<*> iPhone,3
+9395026b,<*> <*>:9a:2b:bf:a1:a<*>,1
+3f408e22,<*> <*>:9a:2b:bf:a1:a1 iPhone,1
+8f02bf22,<*> <*>:8f:6a:a6:ae:<*>,3
+d1bf642e,<*> <*>:8f:6a:a6:ae:<*> iPhone,2
+7122d63f,<*> d4:<*>:<*>:e2:5a:e<*>,1
+1d226d53,<*> d4:<*>:<*>:e2:5a:e8 Rachels-Air,1
+0a5072b9,<*> 7e:e3:dd:<*>:eb:0b,3
+0a789a98,<*> 7e:e3:dd:<*>:eb:0b iPhone,3
+b34891d9,<*> <*>:9f:9a:e4:ac:<*>,10
+44dc0e3d,<*> 3e:2d:<*>:1d:cd:fc,18
+2ae7cbe6,06:5c:b6:0b:6f:b<*>,3
+07ef09d3,<*> <*>:5c:b6:0b:6f:b<*>,11
+02c511fd,<*> c6:<*>:cf:6f:e3:<*>,64
+7c5f7a8a,<*> c6:<*>:cf:6f:e3:<*> OPPO-A77s,49
+80e11ed1,<*> f6:4c:9c:6d:c3:a<*>,2
+fdd7b63b,36:e2:4b:<*>:a4:c<*>,2
+3ca950d1,<*> <*>:e2:4b:<*>:a4:c<*>,3
+5fbf04ce,<*> <*>:e2:4b:<*>:a4:c0 iPhone,1
+c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>,102
+37902d03,<*> <*>:5c:<*>:1d:fb:<*> iPhone,79
+f6a28a7d,<*> <*>:1f:f2:2c:f0:4b,1
+cf9f6097,<*> <*>:1f:f2:2c:f0:4b Z-Flip4-cua-Huong-Giang,1
+392a581b,<*> <*>:a4:c0:<*>:c9:2d,2
+88a6b301,<*> <*>:ed:<*>:a7:<*>:c<*>,3
+75d6b7e2,04:ed:<*>:a7:<*>:c<*>,1
+57f88a49,<*> <*>:ed:<*>:a7:<*>:c7 DESKTOP-550EUU<*>,1
+207ecbce,<*> <*>:8c:a0:<*>:7e:6b,2
+75115d79,<*> <*>:8c:a0:<*>:7e:6b VANPHUC<*>,2
+dfbe3e07,<*> <*>:b8:ba:<*>:bb:be,3
+320e2ce0,<*> <*>:b8:ba:<*>:bb:be V50S-ThinQ,3
+176b5aca,<*> <*>:bf:<*>:b8:d9:f<*>,2
+33f4226f,<*> <*>:bf:<*>:b8:d9:f8 iPhone,2
+51544666,<*> <*>:<*>:<*>:<*>:2c:d<*>,1
+9af0ea3e,<*> <*>:<*>:<*>:<*>:2c:d3 iPhone,1
+dea5d846,3a:4e:<*>:4e:<*>:c<*>,1
+59b52d1c,<*> 3a:4e:<*>:4e:<*>:c<*>,2
+21a1440f,<*> 3a:4e:<*>:4e:<*>:c1 Redmi-Note-<*>-Pro-5G,1
+8d0a8fed,<*> 8e:c8:2b:<*>:ea:<*>,45
+cafa5687,<*> 8e:c8:2b:<*>:ea:<*> iPhone,27
+71be8440,<*> <*>:6a:c5:<*>:<*>:ad,4
+28384f01,<*> <*>:6a:c5:<*>:<*>:ad hait<*>,4
+f61599b1,<*> f8:<*>:d2:c7:<*>:5f,1
+b222e99c,<*> f8:<*>:d2:c7:<*>:5f DESKTOP-SV3DKME,1
+433fb70f,fa:f5:<*>:<*>:b4:4f,2
+97e46ab4,<*> fa:f5:<*>:<*>:b4:4f,6
+c0093906,<*> 5a:3f:<*>:<*>:cb:f<*>,3
+31de499e,<*> 5a:3f:<*>:<*>:cb:f3 2107113SG,2
+7360da68,<*> 8e:<*>:<*>:d9:<*>:2a,12
+fe44a3ca,72:fd:d4:0c:f0:<*>,3
+25bf8d95,<*> <*>:fd:d4:0c:f0:<*>,7
+89ec0621,<*> <*>:fd:d4:0c:f0:<*> S21-cua-Bao,4
+8ddfa351,<*> a8:<*>:4a:9b:<*>:ff,3
+875539c4,<*> a8:<*>:4a:9b:<*>:ff MSI,3
+a7cab1bf,<*> 1a:a3:f1:1d:<*>:<*>,3
+ca90cac2,<*> 1a:a3:f1:1d:<*>:<*> iPhone,3
+5a0982ba,<*> c4:9d:ed:<*>:a1:da,23
+a6295773,<*> c4:9d:ed:<*>:a1:da DESKTOP-IE8P3M<*>,19
+73532e80,<*> 9a:<*>:<*>:ac:<*>:3d,5
+a12405ba,86:ea:d9:<*>:<*>:9e,3
+6cb6d04d,<*> <*>:ea:d9:<*>:<*>:9e,13
+b267a634,<*> <*>:6b:<*>:fb:0f:<*>,1
+99067245,<*> <*>:6b:<*>:fb:0f:<*> Luong-s-S24-Ultra,1
+005e81e4,<*> <*>:d0:<*>:a8:<*>:d<*>,5
+5be3959b,<*> <*>:d0:<*>:a8:<*>:d6 TTDVSBH,5
+3c0335f8,5a:f6:ec:f5:2f:<*>,2
+5072729e,<*> 5a:f6:ec:f5:2f:<*>,4
+44601932,<*> 5a:f6:ec:f5:2f:<*> iPhone,2
+fd043908,2e:<*>:<*>:df:8c:d<*>,3
+6b8ba29e,<*> 2e:<*>:<*>:df:8c:d<*>,9
+c77d088c,<*> 2e:<*>:<*>:df:8c:d7 iPhone,6
+d4e4af99,<*> be:a9:<*>:e5:b6:<*>,4
+3038afff,<*> be:a9:<*>:e5:b6:<*> iPhone,4
+0f6cfdef,DNS-rebind attack detected: <*>,8
+5f800b94,c6:<*>:cf:6f:e3:<*>,15
+489eff17,5e:<*>:b8:<*>:f5:<*>,2
+147d4d34,<*> 5e:<*>:b8:<*>:f5:<*>,4
+82a745e6,<*> 5a:<*>:e3:5d:<*>:fd,2
+f0764202,<*> 5a:<*>:e3:5d:<*>:fd iPhone,2
+53f46beb,<*> <*>:0b:2a:bf:e9:c<*>,12
+fce52a55,<*> <*>:0b:2a:bf:e9:c4 vthomeap<*>,12
+658a4e0d,<*> <*>:0b:2a:bf:e9:<*>,23
+7ff057ab,<*> <*>:0b:2a:bf:e9:<*> vthomeap<*>,23
+0d97d02b,<*> <*>:0b:2a:f1:ba:<*>,23
+e90844d1,<*> <*>:0b:2a:f1:ba:<*> vthomeap<*>,23
+50a48c71,96:<*>:<*>:3f:a5:<*>,2
+30f73c13,<*> <*>:<*>:<*>:3f:a5:<*>,10
+4bc8c730,<*> <*>:<*>:<*>:3f:a5:<*> OPPO-A15s,8
+161f5949,4e:b2:<*>:<*>:<*>:2e,2
+94c68822,<*> 4e:b2:<*>:<*>:<*>:2e,6
+90526373,<*> 4e:b2:<*>:<*>:<*>:2e iPhone,4
+7e53636e,<*> <*>:e4:ec:e2:b9:<*>,10
+5a85349d,<*> <*>:e4:ec:e2:b9:<*> M51-cua-Ngoc,4
+5bb0eb64,9e:a4:7c:5e:<*>:c<*>,4
+b75915db,<*> 9e:a4:7c:5e:<*>:c<*>,10
+58599f35,<*> fe:c8:be:<*>:bc:6e,2
+9ad094a5,<*> fe:c8:be:<*>:bc:6e iPhone,2
+f0ea711a,<*> <*>:ea:2d:9a:<*>:fe,1
+152b09f0,<*> <*>:ea:2d:9a:<*>:fe Tiens-iPhone,1
+e5e9dc08,<*> 5e:5b:2a:0f:<*>:a<*>,4
+1ad5ceec,<*> <*>:de:<*>:<*>:e3:<*>,6
+bf914098,90:de:<*>:<*>:e3:<*>,2
+719c1553,<*> <*>:de:<*>:<*>:e3:<*> DESKTOP-E27PS1L,3
+94d198f4,<*> 5e:5b:2a:0f:<*>:a4 iPhone,3
+100a0068,<*> f2:<*>:<*>:<*>:<*>:<*>,1
+09d4daf3,<*> f2:<*>:<*>:<*>:<*>:<*> iPhone,1
+12f48da5,<*> a2:cd:df:<*>:<*>:f<*>,58
+4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch,58
+3c5720e0,<*> b8:<*>:<*>:2e:c9:bc,1
+8b0d2fe1,<*> b8:<*>:<*>:2e:c9:bc DESKTOP-KT0P<*>,1
+949be809,<*> <*>:<*>:7c:a9:dd:f<*>,4
+903a2715,<*> <*>:2e:<*>:d0:cb:f<*>,4
+02f5bad8,<*> 8a:<*>:7b:3a:<*>:b<*>,1
+12e92737,<*> 8a:<*>:7b:3a:<*>:b3 iPhone,1
+ab577270,<*> ee:<*>:<*>:<*>:ff:c<*>,6
+9b59ec98,ee:<*>:<*>:<*>:ff:c<*>,2
+f345a581,<*> a2:<*>:0d:<*>:bd:b<*>,2
+f352c63e,7a:<*>:ea:<*>:<*>:<*>,1
+3e8365ee,<*> 7a:<*>:ea:<*>:<*>:<*>,2
+affeb6cd,<*> 7a:<*>:ea:<*>:<*>:<*> tuanhace-s-Samsung-S20-FE,1
+157b8b15,<*> b4:6b:fc:<*>:cb:0e,12
+a7b03707,<*> b4:6b:fc:<*>:cb:0e cuongvn,12
+15fc6407,f4:<*>:2a:<*>:<*>:ae,10
+83f3e616,<*> f4:<*>:2a:<*>:<*>:ae,16
+dca9d844,8e:f6:3b:e6:d6:<*>,1
+4f5da28a,<*> 8e:f6:3b:e6:d6:<*>,2
+3ca76f3b,<*> 8e:f6:3b:e6:d6:<*> iPhone,1
+71062225,12:5c:<*>:1d:fb:<*>,11
+b50a03da,<*> f4:<*>:e2:bf:8a:1e,7
+4b48609d,<*> f4:<*>:e2:bf:8a:1e POCOPHONEF1-POCOPHON,4
+ecb0e806,<*> <*>:b9:6c:dc:<*>:e<*>,1
+db014d49,<*> <*>:b9:6c:dc:<*>:e0 Redmi-Note-<*>,1
+e627c20e,f8:4e:<*>:a7:7d:<*>,1
+83cdb60a,<*> f8:4e:<*>:a7:7d:<*>,2
+037d524f,<*> f8:4e:<*>:a7:7d:<*> Hiu,1
+10bcab90,<*> fa:0c:e5:dd:5c:b<*>,14
+efd718f9,<*> fa:0c:e5:dd:5c:b4 Tab-S6-Lite-cua-Hoan,14
+d993e953,<*> <*> wrong server-ID,5
+fa41349e,<*> f4:4e:e3:d5:bc:8b,1
+0cbb6806,<*> f4:4e:e3:d5:bc:8b TABLET-KQJN2OFE,1
+9595e226,<*> a8:<*>:a4:1a:8c:b<*>,13
+c64a21ad,<*> a8:<*>:a4:1a:8c:b9 WIN-OO0O5MDB<*>,13
+771039af,<*> <*>:af:<*>:<*>:d0:<*>,3
+510716c7,<*> <*>:af:<*>:<*>:d0:<*> LAPTOP-2J2TAESC,3
+2e6496d2,ac:<*>:6a:<*>:9f:f<*>,1
+446bad2b,<*> ac:<*>:6a:<*>:9f:f<*>,3
+2d5834bb,<*> <*>:<*>:2e:<*>:<*>:<*>,3
+c6b28e1d,<*> <*>:<*>:2e:<*>:<*>:<*> TABLET-HGGQ7B6Q,3
+2e086bd4,9a:<*>:<*>:ac:<*>:3d,1
+47ced32c,<*> ae:2a:<*>:<*>:3c:a<*>,1
+a6526b13,<*> ae:2a:<*>:<*>:3c:a8 iPhone,1
+fa500db3,<*> <*>:<*>:7f:6f:eb:c<*>,1
+dc90403c,<*> <*>:<*>:7f:6f:eb:c2 DESKTOP-CJUO5I<*>,1
+b9d9e427,f6:<*>:<*>:5a:e5:a<*>,1
+2d9b7d5b,<*> f6:<*>:<*>:5a:e5:a<*>,3
+cc1e79e2,ca:6c:<*>:b4:7f:<*>,2
+855bc1bb,<*> ca:6c:<*>:b4:7f:<*>,3
+021063fc,<*> ca:6c:<*>:b4:7f:<*> iPhone,1
+5af099a0,<*> a6:dc:4c:<*>:5b:<*>,2
+516ada1c,<*> <*>:5f:4f:ab:af:<*>,8
+da38ce8c,ea:ff:<*>:bb:c9:<*>,9
+ee2a3124,<*> ea:ff:<*>:bb:c9:<*>,34
+2b49bd70,<*> ea:ff:<*>:bb:c9:<*> OPPO-A16k,24
+2ca5107f,<*> 9c:1c:<*>:e5:4d:cf,11
+c9ab2ff7,<*> 9c:1c:<*>:e5:4d:cf <*>,11
+171a3253,<*> <*>:<*>:<*>:<*>:<*>:3a,72
+8a5564a8,<*> 0a:af:1b:a9:1d:ff,4
+912c3de0,3c:f5:<*>:<*>:b2:<*>,3
+f94a3aa5,<*> 3c:f5:<*>:<*>:b2:<*>,14
+e7bdb3a7,<*> 3c:f5:<*>:<*>:b2:<*> android-1d93372113e6b6b<*>,10
+88f01700,<*> <*>:dd:f6:ff:<*>:ba,13
+c6cfd809,<*> <*>:dd:f6:ff:<*>:ba Phuong-s-A<*>,13
+fc945c48,a6:<*>:cc:5f:9e:6a,4
+3a0d1108,<*> a6:<*>:cc:5f:9e:6a,15
+ba862082,<*> a6:<*>:cc:5f:9e:6a iPhone,11
+10b76de9,62:<*>:d0:4a:<*>:ff,3
+dadaee5f,<*> <*>:<*>:d0:4a:<*>:ff,4
+b808e574,<*> <*>:<*>:d0:4a:<*>:ff BTKR-W<*>,1
+faca27fc,<*> d0:<*>:<*>:<*>:d4:2e,2
+93c67990,<*> d0:<*>:<*>:<*>:d4:2e ont-HP-<*>-G3-MT,2
+f3a3a5c3,rpc_handle_login called,1
+110c6ec8,get lock_state: <*>,1
+e22fb23a,Successfully set lock_login_state to <*>,1
+7880dc5e,accepted login on / for admim from <*>,1
+de5effd8,"name is not allowed. Only messages, wifilog, and logmesh are allowed.",2
+a99742dd,log success for downloading <*>,2
+4cb27825,1e:<*>:9f:3c:c4:7c,4
+77c8419e,<*> 1e:<*>:9f:3c:c4:7c,9
+adb87a9c,<*> 1e:<*>:9f:3c:c4:7c iPhone,5
+707c3de3,<*> 1c:1b:b5:a0:0f:<*>,12
+64def085,<*> 1c:1b:b5:a0:0f:<*> DESKTOP-OMDDDN<*>,12
+b407f3bc,<*> f6:<*>:e8:fd:<*>:<*>,5
+b55b2da7,<*> f6:<*>:e8:fd:<*>:<*> iPhone,4
+a3871662,<*> <*>:e5:<*>:9d:b4:c<*>,25
+69ed4b82,<*> <*>:e5:<*>:9d:b4:c1 NguyenMinhX1Mini,11
+839a6682,6c:f6:da:<*>:<*>:1b,1
+2be42178,<*> 6c:f6:da:<*>:<*>:1b,2
+2effc52a,<*> 6c:f6:da:<*>:<*>:1b LamNT<*>,1
+bdbdf2fc,<*> <*>:<*>:ad:cd:8b:<*>,3
+c6dab69c,<*> <*>:<*>:ad:cd:8b:<*> QAHs-Air,3
+f81b132b,reset_count_handler called,1
+b767b0b6,<*> <*>:de:<*>:d9:d6:5e,12
+1b66788d,90:de:<*>:d9:d6:5e,2
+6ddeefb2,<*> <*>:de:<*>:d9:d6:5e DienND2-PC,9
+58fbe247,<*> <*>:af:<*>:bf:<*>:4b,11
+a22dee6f,<*> <*>:af:<*>:bf:<*>:4b DESKTOP-FSR4I9M,6
+14cf94b3,<*> <*>:e2:2b:0d:a5:fd,1
+18e87eed,<*> <*>:e2:2b:0d:a5:fd iPhone,1
+cac24c0b,<*> 0a:<*>:<*>:5e:2b:6b,76
+72923601,28:d0:<*>:a8:c3:<*>,2
+e7a2f847,<*> <*>:d0:<*>:a8:c3:<*>,49
+5f745ce7,<*> <*>:d0:<*>:a8:c3:<*> TTDVSBH,47
+393cc6a4,62:<*>:7d:<*>:cd:<*>,3
+8e868974,<*> <*>:<*>:7d:<*>:cd:<*>,3
+81cd894a,36:b4:<*>:<*>:<*>:9f,2
+59e2e05c,<*> <*>:b4:<*>:<*>:<*>:9f,4
+984e72ee,46:6b:a9:<*>:6b:<*>,1
+36af7a2c,<*> <*>:6b:a9:<*>:6b:<*>,2
+80a81eaa,<*> <*>:6b:a9:<*>:6b:<*> iPhone,1
+7dcc4e56,<*> a2:1e:<*>:<*>:9b:a<*>,4
+f258ca55,<*> a2:1e:<*>:<*>:9b:a9 iPad,2
+43388675,<*> f0:9e:4a:b0:c9:<*>,6
+3b3cb7d8,<*> f0:9e:4a:b0:c9:<*> DESKTOP-AHJ00LS,5
+c8f9981d,0a:<*>:<*>:5e:2b:6b,2
+436f2fca,<*> <*>:<*>:fa:4a:5b:<*>,10
+fe878c46,<*> <*>:<*>:fa:4a:5b:<*> Fred_Tran,4
+1b8d9562,<*> f2:<*>:<*>:<*>:0e:<*>,1
+fd982a8f,<*> f2:<*>:<*>:<*>:0e:<*> iPhone,1
+5122b729,<*> 9e:d6:7d:<*>:<*>:4b,24
+a34f38b3,04:bf:d5:a6:ac:e<*>,4
+887aea14,<*> <*>:bf:d5:a6:ac:e<*>,9
+f0f82538,<*> <*>:bf:d5:a6:ac:e8 iPhone,5
+a85c330e,04:bf:d5:a7:ac:<*>,4
+d9aa7c42,<*> <*>:bf:d5:a7:ac:<*>,10
+5afc2f5b,<*> <*>:bf:d5:a7:ac:<*> iPhone,6
+b3a5a632,<*> 0a:<*>:<*>:cc:<*>:be,1
+ed6aef04,<*> 0a:<*>:<*>:cc:<*>:be iPhone,1
+d7adcd6a,<*> ee:e2:4d:cc:2b:a<*>,69
+2f6af2c2,<*> ee:e2:4d:cc:2b:a7 V<*>,68
+47e08c9e,26:3d:7b:<*>:5c:ec,3
+3bff2561,<*> <*>:3d:7b:<*>:5c:ec,4
+274a582f,<*> <*>:3d:7b:<*>:5c:ec Galaxy-S<*>,1
+5f0707a3,<*> no address available,1271
+53cfeffd,fe:a9:ee:<*>:d1:<*>,3
+c8a48593,<*> fe:a9:ee:<*>:d1:<*>,7
+384834c9,04:bf:d5:a4:1a:<*>,1
+7aa16448,<*> <*>:bf:d5:a4:1a:<*>,2
+4a6664df,<*> fe:a9:ee:<*>:d1:<*> Galaxy-S<*>,4
+87ad1ed3,<*> <*>:bf:d5:a4:1a:<*> address in use,1
+79faa4d3,foe_clear_entry: state=<*>,37
+31677a19,Delete old entry: dip =<*>,37
+2458afe0,Old mac= fe:a9:ee:<*>:d1:<*>,36
+ee1ec89b,New mac= <*>:ed:<*>:a7:<*>:c<*>,36
+d0bfe322,<*> <*>:d8:<*>:dc:1a:<*>,13
+cad8a56a,<*> <*>:d8:<*>:dc:1a:<*> EPC3M,11
+c877789c,88:<*>:0d:b5:a8:3a,1
+039dc1a5,<*> <*>:<*>:0d:b5:a8:3a,2
+147c1b02,<*> <*>:<*>:0d:b5:a8:3a Van-Anh-Vu,1
+60214e7a,f6:<*>:e8:fd:<*>:<*>,1
+cbdde652,2a:5b:ce:fb:<*>:eb,6
+51c94648,ee:e2:4d:cc:2b:a<*>,1
+441a5f3f,<*> 7c:b2:7d:b7:4a:<*>,31
+58128110,<*> 7c:b2:7d:b7:4a:<*> DESKTOP-U83T0PP,25
+1a1c191d,<*> <*>:<*>:<*>:<*>:0a:<*>,1
+24b6fcba,<*> <*>:<*>:<*>:<*>:0a:<*> TestEPC,1
+0215ec2d,Old mac= <*>:ed:<*>:a7:<*>:c<*>,1
+3ea46957,New mac= fe:a9:ee:<*>:d1:<*>,1
+26076f60,<*> 6c:f6:da:d8:f9:be,2
+89845e18,<*> 6c:f6:da:d8:f9:be Vanhnee,2
+2fecc571,<*> <*>:<*>:e7:e8:8b:d<*>,4
+02cff7ef,<*> <*>:<*>:e7:e8:8b:d1 iPhone,3
+67881d78,<*> f8:2f:a8:f6:6f:d<*>,2
+5de03cb1,<*> f8:2f:a8:f6:6f:d1 DESKTOP-SIJ0AU<*>,2
+97028d82,<*> <*>:<*>:fd:8c:6b:<*>,1
+fb0d8277,<*> <*>:<*>:fd:8c:6b:<*> iPhone,1
+f6e79d27,5a:3f:<*>:<*>:cb:f<*>,1
+3db5881d,TCP: request_sock_TCPv6: Possible SYN flooding on port <*>. Sending cookies. Check SNMP counters.,1
+4c5c52be,78:af:<*>:bf:<*>:4b,5
+de5b44a2,<*> <*>:af:<*>:c0:<*>:<*>,2
+f91223a9,<*> <*>:af:<*>:c0:<*>:<*> DESKTOP-JMHBLD<*>,2
+6cc36c76,<*> ae:4c:<*>:<*>:ac:<*>,4
+992e5212,<*> ae:4c:<*>:<*>:ac:<*> iPhone,2
+b5d95273,<*> <*>:<*>:3f:b2:b0:<*>,1
+be13cc1f,<*> <*>:<*>:3f:b2:b0:<*> 21061119AG,1
+ffd4b2fb,f8:a9:d0:<*>:f4:<*>,1
+2d36ccf1,<*> f8:a9:d0:<*>:f4:<*>,2
+04680b5b,<*> f8:a9:d0:<*>:f4:<*> V60-ThinQ-5G-UW,1
+f62d6a73,<*> c2:<*>:<*>:<*>:<*>:bb,2
+6f37cb72,<*> da:de:f7:<*>:ce:<*>,6
+4b1f8e1c,82:d8:4a:6c:6e:<*>,1
+ffa6e7c3,2a:f2:9c:d0:0f:<*>,1
+48183f79,1a:cd:a3:db:3d:e<*>,5
+441b56b4,<*> 1a:cd:a3:db:3d:e<*>,8
+fa8baf7f,<*> 1a:cd:a3:db:3d:e9 iQOO-Z9-Turbo-Lasting,3
+2e126354,22:2f:2a:f1:<*>:<*>,1
+d0ece9f1,<*> <*>:2f:2a:f1:<*>:<*>,2
+69d20bc4,<*> <*>:2f:2a:f1:<*>:<*> Redmi-Note-<*>,1
+7b67306d,ee:7f:5a:<*>:<*>:<*>,5
+563dc17e,<*> ee:7f:5a:<*>:<*>:<*>,13
+78ea1e88,be:f6:<*>:<*>:6c:c<*>,1
+3ff4721d,8e:d8:b1:5a:<*>:c<*>,1
+327ac671,<*> 8e:d8:b1:5a:<*>:c<*>,3
+a5003531,36:<*>:<*>:ba:d6:<*>,1
+bf3d2d49,<*> <*>:<*>:<*>:ba:d6:<*>,1
+188a114c,b6:<*>:<*>:<*>:ac:c<*>,3
+25171df0,<*> b6:<*>:<*>:<*>:ac:c<*>,4
+bf0afaa7,<*> b6:<*>:<*>:<*>:ac:c9 realme-C<*>,1
+cac715cb,5e:ea:db:dd:ce:<*>,1
+f2918c71,fe:da:<*>:<*>:a4:<*>,3
+ee53b265,<*> fe:da:<*>:<*>:a4:<*>,4
+69d6f48e,<*> fe:da:<*>:<*>:a4:<*> iPhone,1
+a100dce0,22:<*>:<*>:a7:fe:<*>,3
+f1638a30,<*> <*>:<*>:<*>:a7:fe:<*>,4
+a8e90bc8,<*> <*>:<*>:<*>:a7:fe:<*> Redmi-Note-<*>,1
+57754669,1a:<*>:<*>:da:<*>:<*>,7
+c8b380dc,<*> 1a:<*>:<*>:da:<*>:<*>,11
+7d009252,<*> 1a:<*>:<*>:da:<*>:<*> Galaxy-S<*>,4
+913bdc2f,52:c8:<*>:<*>:<*>:1b,4
+1f3fefe6,f4:<*>:e2:bf:8a:1e,3
+abdcf87f,56:e4:ec:e2:b9:<*>,6
+15b199fd,26:e2:8f:ad:<*>:1b,2
+67e507dd,<*> <*>:e2:8f:ad:<*>:1b,5
+0b014d4d,<*> <*>:e2:8f:ad:<*>:1b iPhone,3
+033620f1,06:c2:b0:<*>:e4:b<*>,4
+f6d5ebb7,<*> <*>:c2:b0:<*>:e4:b<*>,5
+8a310966,<*> <*>:c2:b0:<*>:e4:b3 iQOO-Z9-Turbo-Lasting,1
+d9499938,b6:ab:1a:<*>:4a:ec,2
+44b47dbf,72:<*>:0a:<*>:<*>:<*>,3
+4d536365,<*> <*>:<*>:0a:<*>:<*>:<*>,6
+87e5e47d,<*> <*>:<*>:0a:<*>:<*>:<*> iPhone,2
+429efebd,fa:c4:<*>:f3:<*>:d<*>,2
+1dc9db20,24:f5:aa:b6:<*>:a<*>,2
+391b8ee5,<*> <*>:f5:aa:b6:<*>:a<*>,4
+232eaf3d,<*> <*>:f5:aa:b6:<*>:a9 L,2
+846a374f,Error reading fw<*>,1
+6dbbceb7,dc:<*>:<*>:c0:ca:<*>,1
+69b404a9,<*> dc:<*>:<*>:c0:ca:<*>,3
+4e359bea,<*> dc:<*>:<*>:c0:ca:<*> DESKTOP-045C7SK,2
+33c6c857,fa:cb:<*>:8a:<*>:af,5
+634312e9,<*> fa:cb:<*>:8a:<*>:af,6
+270f6212,5c:<*>:<*>:7c:<*>:a<*>,7
+fb403103,<*> 5c:<*>:<*>:7c:<*>:a<*>,12
+13c7d0eb,<*> 5c:<*>:<*>:7c:<*>:a3 Galaxy-J3-Pro,5
+42bffc40,<*> fa:cb:<*>:8a:<*>:af Galaxy-A90-5G,1
+003ca038,8e:c8:2b:<*>:ea:<*>,2
+62b175b3,ba:<*>:a5:<*>:<*>:<*>,2
+e39ab553,<*> ba:<*>:a5:<*>:<*>:<*>,3
+eab94cd8,<*> ba:<*>:a5:<*>:<*>:<*> OnePlus-<*>-5G,1
+ce606bf0,ee:ce:f9:4f:<*>:<*>,3
+ec0e9768,3a:<*>:<*>:<*>:c3:b<*>,7
+9d5368f9,<*> 3a:<*>:<*>:<*>:c3:b<*>,8
+9221677c,<*> 3a:<*>:<*>:<*>:c3:b6 iPhone,1
+ea300301,e2:a4:6c:fb:a3:<*>,3
+1f8b4713,<*> e2:a4:6c:fb:a3:<*>,4
+c936fa29,<*> e2:a4:6c:fb:a3:<*> Galaxy-A<*>,1
+f42daefc,ce:<*>:9d:<*>:2a:c<*>,2
+286c8fd1,76:a1:5b:bd:<*>:<*>,2
+9440bc43,<*> <*>:a1:5b:bd:<*>:<*>,4
+f73d6a8f,7e:<*>:b1:fb:f5:<*>,3
+99f4c5fc,<*> 7e:<*>:b1:fb:f5:<*>,4
+462e7d49,<*> 7e:<*>:b1:fb:f5:<*> Hikaru-Tran,1
+2276c52e,6a:de:8a:be:ef:e<*>,7
+f479ef64,<*> 6a:de:8a:be:ef:e<*>,9
+34e71596,<*> 6a:de:8a:be:ef:e2 A50-cua-Thao,2
+cb244cb4,f0:9e:4a:b0:c9:<*>,1
+c203142b,76:2d:b5:<*>:db:0f,2
+edbd1df4,<*> <*>:2d:b5:<*>:db:0f,4
+2d3c50d1,52:b5:<*>:bf:<*>:8e,1
+f9dacfd9,<*> <*>:b5:<*>:bf:<*>:8e,2
+36927707,<*> <*>:b5:<*>:bf:<*>:8e iPhone,1
+c84a04fe,c2:bc:c6:<*>:3c:9a,3
+c04b0a9d,a2:1e:<*>:<*>:9b:a<*>,2
+14a2f92f,ae:<*>:9a:0e:<*>:a<*>,3
+22c7c9e0,<*> ae:<*>:9a:0e:<*>:a<*>,7
+747e5b71,f2:<*>:b2:8d:<*>:<*>,2
+bec95e8e,<*> f2:<*>:b2:8d:<*>:<*>,4
