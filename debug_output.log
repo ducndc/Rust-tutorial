@@ -1,0 +1,59 @@
+Parse log
+************* GET LOG **************
+logmesh
+logmesh.old
+messages
+messages.old
+vt_led
+wifilog
+wifilog.old
+etc/config/network
+etc/map/
+etc/map/1905_dpp_keys.txt
+etc/map/1905d.cfg
+etc/map/mapd_default.cfg
+etc/map/mapd_user.cfg
+etc/map/wts_bss_info_config
+etc/map/sp_rule.cfg
+etc/map/mapd_cfg
+tmp/log/temp_device_log
+cat: logmesh: input file is output file
+cat: messages: input file is output file
+************* CHECK LOG **************
+Parsing file: ../data/input_log/logmesh
+Total lines:  14028
+Processed 7.1% of log lines.
+Processed 14.3% of log lines.
+Processed 21.4% of log lines.
+Processed 28.5% of log lines.
+Processed 35.6% of log lines.
+Processed 42.8% of log lines.
+Processed 49.9% of log lines.
+Processed 57.0% of log lines.
+Processed 64.2% of log lines.
+Processed 71.3% of log lines.
+Processed 78.4% of log lines.
+Processed 85.5% of log lines.
+Processed 92.7% of log lines.
+Processed 99.8% of log lines.
+Processed 100.0% of log lines.
+Parsing done. [Time taken: 0:00:02.530511]
+************* ANALAYSIS LOG **************
+====== Input data summary ======
+Loading ../data/result/logmesh_structured.csv
+Total: 14028 instances, train: 14028 instances, test: 0 instances
+====== Transformed train data summary ======
+Train data shape: 9819-by-82
+
+Train phase:
+====== Model summary ======
+n_components: 42
+Project matrix shape: 82-by-82
+SPE threshold: 0.8024572288571516
+
+Test phase:
+====== Transformed test data summary ======
+Test data shape: 4209-by-82
+
+************* VIEW RESULTS **************
+Warning: failed to launch javaldx - java may not function correctly

@@ -1,11 +1,3 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-10844,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
-11178,['a79ab087'],1.0,a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore
-11299,['8b0bff7d'],1.0,8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>
-11449,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
-12088,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
-12741,['35c7b081'],1.0,35c7b081,delete <*> in assoc_clients
-13270,['25589ad0'],1.0,25589ad0,<*> Associated radio channel <*> is not overload yet
-14014,['0c0d7679'],1.0,0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>
-14932,['3eb580e4'],1.0,3eb580e4,<*> Client(<*>) <*> Trigger = <*>
-15289,['2fba6b9b'],1.0,2fba6b9b,<*> cli <*> Air mon failed..no reports
+9945,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
+9986,['03c61266'],1.0,03c61266,<*> Controller unreachable by neigbor <*>:0b:2a:bf:e9:<*>
