@@ -1,5 +1,9 @@
 # log anomaly detection
 
+## Library
+
+- Eigen
+
 ## Citation
 
 If you use this project, please cite the following paper:
