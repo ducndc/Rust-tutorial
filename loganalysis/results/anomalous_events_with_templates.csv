@@ -1,27 +1,10 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-2033,['1541e39a'],1.0,1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>
-2084,['12f48da5'],1.0,12f48da5,<*> a2:cd:df:<*>:<*>:f<*>
-2127,['4a8d1017'],1.0,4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch
-2175,['37902d03'],1.0,37902d03,<*> <*>:5c:<*>:1d:fb:<*> iPhone
-2187,['efd718f9'],1.0,efd718f9,<*> fa:0c:e5:dd:5c:b4 Tab-S6-Lite-cua-Hoan
-2247,['89ec0621'],1.0,89ec0621,<*> <*>:fd:d4:0c:f0:<*> S21-cua-Bao
-2258,['ce7a5243'],1.0,ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>
-2278,['a7cab1bf'],1.0,a7cab1bf,<*> 1a:a3:f1:1d:<*>:<*>
-2358,['d9d01975'],1.0,d9d01975,<*> 0c:6a:c4:2a:<*>:<*>
-2422,['0ba36a6f'],1.0,0ba36a6f,only locally-known addresses for domain <*>
-2464,['2f88821e'],1.0,2f88821e,<*> <*>:3f:de:dc:cc:<*> iPhone
-2471,['7229368a'],1.0,7229368a,36:f9:4a:<*>:<*>:d<*>
-2483,['73532e80'],1.0,73532e80,<*> 9a:<*>:<*>:ac:<*>:3d
-2513,['a8062b8d'],1.0,a8062b8d,<*> <*>:d5:ec:1c:b7:<*>
-2556,['949be809'],1.0,949be809,<*> <*>:<*>:7c:a9:dd:f<*>
-2567,['c3aaddda'],1.0,c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>
-2646,['ee2a3124'],1.0,ee2a3124,<*> ea:ff:<*>:bb:c9:<*>
-2671,['c9ab2ff7'],1.0,c9ab2ff7,<*> 9c:1c:<*>:e5:4d:cf <*>
-2686,['8a5564a8'],1.0,8a5564a8,<*> 0a:af:1b:a9:1d:ff
-2727,['e317df3c'],1.0,e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone
-2746,['88f01700'],1.0,88f01700,<*> <*>:dd:f6:ff:<*>:ba
-2792,['7c5f7a8a'],1.0,7c5f7a8a,<*> c6:<*>:cf:6f:e3:<*> OPPO-A77s
-2796,['7360da68'],1.0,7360da68,<*> 8e:<*>:<*>:d9:<*>:2a
-2803,['fc945c48'],1.0,fc945c48,a6:<*>:cc:5f:9e:6a
-2855,['110c6ec8'],1.0,110c6ec8,get lock_state: <*>
-2869,['a99742dd'],1.0,a99742dd,log success for downloading <*>
+10894,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
+11419,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
+11743,['a79ab087'],1.0,a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore
+11944,['36adfe94'],1.0,36adfe94,Deleted assoc_client: <*> from dev: <*>
+11955,['0c0d7679'],1.0,0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>
+14024,['409a28b1'],1.0,409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>
+14648,['2fba6b9b'],1.0,2fba6b9b,<*> cli <*> Air mon failed..no reports
+15058,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
+15419,['25589ad0'],1.0,25589ad0,<*> Associated radio channel <*> is not overload yet

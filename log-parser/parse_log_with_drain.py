@@ -7,17 +7,9 @@ from logparser.Drain import LogParser
 input_dir = '../data/input_log/' # The input directory of log file
 output_dir = '../data/result/'  # The output directory of parsing results
 log_file = 'logmesh'  # The input log file name
-#log_format = '<Date> <Time> <Level> <Component>: <Content>'  # wifi log format
-#log_format = '<Timestamp> <Level> <Component>: <Code> <Tag> <Content>'
 
 log_format = '<Day> <Month> <Date> <Time> <Year> <Level> <Component>: <Line> <Content>'
 
-# Regular expression list for optional preprocessing (default: [])
-# regex      = [
-#     r'blk_(|-)[0-9]+' , # block id
-#     r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)', # IP
-#     r'(?<=[^A-Za-z0-9])(\-?\+?\d+)(?=[^A-Za-z0-9])|[0-9]+$', # Numbers
-# ]
 regex = [
     r'blk_(|-)[0-9]+',                            # block id
     r'(/|)([0-9]+\.){3}[0-9]+(:[0-9]+|)(:|)',     # IP

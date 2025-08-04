@@ -1,333 +1,81 @@
 EventId,EventTemplate,Occurrences
-1541e39a,giving name <*> to the DHCP lease of <*> because the name exists in /tmp/hosts/dhcp.cfg01411c with address <*>,1142
-07a7d844,<*> c2:bc:c6:<*>:3c:9a,9
-783333bd,<*> <*> wrong address,19
-dd94ac01,<*> c2:bc:c6:<*>:3c:9a iPhone,8
-5fe665a4,<*> ce:c8:9d:<*>:c5:1e,46
-3c9e700b,<*> ce:c8:9d:<*>:c5:1e Watch,46
-bf1d534d,3e:<*>:<*>:ac:1c:<*>,6
-8fc5c7fc,<*> 3e:<*>:<*>:ac:1c:<*>,11
-be9d1b55,<*> 3e:<*>:<*>:ac:1c:<*> tuanhace-s-Samsung-S20-FE,5
-c792cbf0,<*> <*>:3f:de:dc:cc:<*>,6
-2f88821e,<*> <*>:3f:de:dc:cc:<*> iPhone,6
-453251a9,<*> a2:<*>:d5:b6:<*>:<*>,21
-f749ce53,<*> a2:<*>:d5:b6:<*>:<*> Mac,21
-5c76f617,<*> <*>:<*>:db:<*>:6b:<*>,6
-2d4bc3a8,aa:c5:df:ca:4d:<*>,1
-3a326a1b,<*> aa:c5:df:ca:4d:<*>,2
-9332a37d,<*> aa:c5:df:ca:4d:<*> Redmi-Note-<*>-Pro-5G,1
-a89f3f7c,8a:1f:9d:da:bf:<*>,1
-c9b71b15,<*> 8a:1f:9d:da:bf:<*>,2
-2524c50e,<*> 8a:1f:9d:da:bf:<*> S21-FE-cua-Hieu,1
-e3d1b03e,56:<*>:0b:5d:db:e<*>,2
-a63ad171,<*> <*>:<*>:0b:5d:db:e<*>,4
-755af120,<*> <*>:<*>:0b:5d:db:e0 S21-cua-Trung,2
-a0ecd49b,<*> <*>:e9:ec:7d:dd:<*>,1
-93c9eb27,<*> <*>:e9:ec:7d:dd:<*> iPhone,1
-c6c5c5c3,<*> ce:<*>:9d:<*>:2a:c<*>,4
-7229368a,36:f9:4a:<*>:<*>:d<*>,3
-3e251333,<*> <*>:f9:4a:<*>:<*>:d<*>,6
-14c324e2,<*> <*>:f9:4a:<*>:<*>:d1 iPhone,3
-9d1290e9,92:<*>:cf:1e:e6:e<*>,1
-951b403f,<*> <*>:<*>:cf:1e:e6:e<*>,3
-24dc1a1d,<*> <*>:<*>:cf:1e:e6:e2 iPhone,2
-49e4dc2c,<*> b6:f4:<*>:<*>:<*>:6a,4
-4a571aa4,Path is invalid: Device.Ethernet.Interface.<*>.MACAddress,13
-a329b4ba,Path (Device.Ethernet.Interface.<*>.MACAddress) does not exist in the schema,13
-ce7a5243,<*> a2:<*>:<*>:7e:0b:<*>,62
-0682ded2,fe:b4:d3:cd:6a:<*>,2
-49a000ab,<*> fe:b4:d3:cd:6a:<*>,4
-13a1f37f,84:7a:b6:e9:<*>:4f,1
-a5d447e1,<*> <*>:7a:b6:e9:<*>:4f,2
-f7b215e5,<*> <*>:7a:b6:e9:<*>:4f <*>,1
-ab8f69a7,aa:ae:a1:<*>:a6:5b,1
-c4f782cc,<*> aa:ae:a1:<*>:a6:5b,4
-44f9cf49,<*> aa:ae:a1:<*>:a6:5b Redmi-12C,3
-47e0bc64,82:5b:c4:dc:bc:c<*>,2
-b6a4c0f2,<*> <*>:5b:c4:dc:bc:c<*>,3
-c692c8dd,<*> <*>:5b:c4:dc:bc:c0 iPhone,1
-366f9c18,1a:af:ac:e2:8b:2c,1
-4c446caf,<*> 1a:af:ac:e2:8b:2c,3
-f0a54398,<*> 1a:af:ac:e2:8b:2c iPhone,2
-a8062b8d,<*> <*>:d5:ec:1c:b7:<*>,33
-efe1b76b,<*> <*>:d5:ec:1c:b7:<*> Mac,33
-dcebd7db,<*> e4:a7:a0:<*>:f6:3b,4
-e2762b6c,<*> e4:a7:a0:<*>:f6:3b DESKTOP-KN-<*>,4
-3122f54d,<*> refused to do a recursive query,9
-fb781701,<*> <*>:<*>:a8:e8:<*>:be,26
-ac4f63f9,66:<*>:<*>:ff:a9:<*>,1
-f22c37b0,<*> <*>:<*>:<*>:ff:a9:<*>,2
-653a3bca,<*> <*>:<*>:<*>:ff:a9:<*> OPPO-Reno12-F-5G,1
-25373807,<*> <*>:d8:4a:6c:6e:<*>,6
-add2368d,<*> <*>:d8:4a:6c:6e:<*> 21081111RG,6
-f5d9bd0f,<*> f4:7b:<*>:<*>:<*>:e<*>,1
-6e20601d,<*> f4:7b:<*>:<*>:<*>:e7 DESKTOP-8Q6SJBU,1
-b230f18c,56:e0:<*>:c7:de:dc,1
-3d69d7a3,<*> <*>:e0:<*>:c7:de:dc,2
-76ebb476,<*> <*>:e0:<*>:c7:de:dc 21061119AG,1
-10623784,<*> <*>:<*>:dd:<*>:2f:1e,1
-3f396d9e,<*> <*> wrong network,5
-d9237703,<*> da:b2:<*>:2b:e5:7a,1
-43e50a78,<*> da:b2:<*>:2b:e5:7a iPhone,1
-4241470f,renew to <*>,6
-b61ad709,(<*>): udhcpc: sending renew to <*>,6
-6902cd8e,"of <*> obtained, lease time <*>",6
-1b437da8,"(<*>): udhcpc: lease of <*> obtained, lease time <*>",6
-4f92bd71,on receipt of SIGTERM,6
-08c41d1c,"rebinding protection is active, will discard upstream RFC1918 responses!",6
-d23f15ef,<*>/<*> responses,6
-49a3275f,to system UBus,6
-7907a6ac,version <*>.<*> cachesize <*>,6
-032d79f1,time options: IPv6 GNU-getopt no-DBus UBus no-i18n no-IDN DHCP no-DHCPv6 no-Lua TFTP no-conntrack no-ipset no-auth no-cryptohash no-DNSSEC no-ID loop-detect inotify dumpfile,6
-29ddc60e,support enabled: connected to system bus,6
-6698555c,"IP range <*> -- <*>, lease time 12h",6
-15115865,sockets bound exclusively to interface br-lan,6
-0ba36a6f,only locally-known addresses for domain <*>,84
-c9a1699f,/tmp/resolv.conf.d/resolv.conf.auto,6
-092d69a5,nameserver <*>#<*>,12
-99e4c517,/etc/hosts - <*> addresses,6
-809d9f7a,/tmp/hosts/odhcpd - <*> addresses,6
-16c94763,<*> - <*> addresses,12
-868fd474,a8:fe:9d:b6:b8:<*>,3
-8d79863c,<*> a8:fe:9d:b6:b8:<*>,5
-0d3b5221,<*> a8:fe:9d:b6:b8:<*> MsHuong,2
-4421f563,<*> ac:2b:6e:7b:<*>:8b,1
-7e1f8ab6,<*> ac:2b:6e:7b:<*>:8b DataPlane-Epc,1
-2dd01c61,<*> be:f6:<*>:<*>:6c:c<*>,1
-d42f3d69,<*> be:f6:<*>:<*>:6c:c5 iPhone,1
-e13f7e98,de:<*>:ca:b1:ca:<*>,1
-ab6a2abc,<*> de:<*>:ca:b1:ca:<*>,3
-71fc4c99,<*> de:<*>:ca:b1:ca:<*> S24-FE-cua-Dung,2
-4bb6c954,"STRATUM, stratum=<*> interval=<*> offset=<*>.<*>",1
-b0db4406,<*> 9e:f6:8d:<*>:<*>:<*>,3
-e228edf7,<*> 9e:f6:8d:<*>:<*>:<*> iPhone,1
-86f2d34a,<*> 5e:ea:db:dd:ce:<*>,9
-e317df3c,<*> 5e:ea:db:dd:ce:<*> iPhone,9
-3b84a8de,<*> 0a:<*>:a3:9a:<*>:<*>,4
-9aa6f3d1,<*> 1e:<*>:<*>:8d:<*>:<*>,3
-e98d2dff,<*> 1e:<*>:<*>:8d:<*>:<*> Le-s-S22-Ultra,3
-6e9ea9f7,<*> c6:<*>:<*>:<*>:<*>:c<*>,1
-dfe479a8,<*> c6:<*>:<*>:<*>:<*>:c0 iPhone,1
-9c44c060,6e:ff:<*>:e0:a6:<*>,6
-7968dd5d,<*> 6e:ff:<*>:e0:a6:<*>,18
-f466e998,b0:e4:5c:<*>:6f:da,2
-111dc36d,<*> b0:e4:5c:<*>:6f:da,5
-5d1dcd06,<*> b0:e4:5c:<*>:6f:da Samsung,3
-882b1b09,<*> ce:<*>:1e:b0:<*>:<*>,4
-7c7e7298,<*> fa:c4:<*>:f3:<*>:d<*>,6
-a6b02732,<*> fa:c4:<*>:f3:<*>:d7 iPhone,6
-c42e6d41,<*> b2:1a:3f:4c:3e:9e,1
-5ded15fa,<*> b2:1a:3f:4c:3e:9e S22-Ultra-cua-Ngoc,1
-d9d8bc50,<*> 2a:f2:9c:d0:0f:<*>,3
-144f14b3,<*> 2a:f2:9c:d0:0f:<*> iPhone,2
-57e57215,16:<*>:a8:e8:<*>:be,2
-4912ab01,<*> 8e:2c:e6:0f:3f:<*>,2
-ccc4afe9,<*> 8e:2c:e6:0f:3f:<*> iPhone,2
-c5467a46,<*> ee:ce:f9:4f:<*>:<*>,1
-30409eee,<*> ee:ce:f9:4f:<*>:<*> Phan-s-S24-Ultra,1
-8bedd47e,<*> ba:<*>:<*>:a6:<*>:c<*>,1
-0a85e6cb,<*> ba:<*>:<*>:a6:<*>:c6 iPad,1
-977c7b32,<*> 4c:bb:<*>:ba:a3:d<*>,6
-856da202,domain vttek.vn for DHCP host name DS-ANHPT<*>,6
-88209579,<*> 4c:bb:<*>:ba:a3:d4 DS-ANHPT<*>,6
-c523ee0e,<*> <*>:cd:2d:0c:2d:<*>,2
-e7a1b934,<*> <*>:cd:2d:0c:2d:<*> iPhone,2
-34a3889b,<*> b6:ab:1a:<*>:4a:ec,60
-83c34da8,<*> 3a:<*>:<*>:f3:fa:bd,8
-83d3cc76,<*> 3a:<*>:<*>:f3:fa:bd iPhone,6
-d9d01975,<*> 0c:6a:c4:2a:<*>:<*>,10
-93208a07,<*> 0c:6a:c4:2a:<*>:<*> iPhone,10
-74779289,fa:7b:fa:d4:<*>:<*>,1
-8fb50751,<*> fa:7b:fa:d4:<*>:<*>,2
-cbf254c2,<*> fa:7b:fa:d4:<*>:<*> Redmi-Note-<*>,1
-1b28e1e9,<*> <*>:c8:<*>:<*>:<*>:1b,2
-894493b4,<*> <*>:c8:<*>:<*>:<*>:1b iQOO-Z9-Turbo,2
-f084babf,<*> 2a:5b:ce:fb:<*>:eb,42
-eda20fec,a2:5f:<*>:<*>:<*>:<*>,2
-5d6eac43,<*> a2:5f:<*>:<*>:<*>:<*>,3
-16c83bf8,<*> a2:5f:<*>:<*>:<*>:<*> iPhone,1
-9395026b,<*> <*>:9a:2b:bf:a1:a<*>,1
-3f408e22,<*> <*>:9a:2b:bf:a1:a1 iPhone,1
-8f02bf22,<*> <*>:8f:6a:a6:ae:<*>,1
-d1bf642e,<*> <*>:8f:6a:a6:ae:<*> iPhone,1
-7122d63f,<*> d4:<*>:<*>:e2:5a:e<*>,1
-1d226d53,<*> d4:<*>:<*>:e2:5a:e8 Rachels-Air,1
-0a5072b9,<*> 7e:e3:dd:<*>:eb:0b,1
-0a789a98,<*> 7e:e3:dd:<*>:eb:0b iPhone,1
-b34891d9,<*> <*>:9f:9a:e4:ac:<*>,6
-44dc0e3d,<*> 3e:2d:<*>:1d:cd:fc,2
-2ae7cbe6,06:5c:b6:0b:6f:b<*>,1
-07ef09d3,<*> <*>:5c:b6:0b:6f:b<*>,3
-02c511fd,<*> c6:<*>:cf:6f:e3:<*>,18
-7c5f7a8a,<*> c6:<*>:cf:6f:e3:<*> OPPO-A77s,17
-80e11ed1,<*> f6:4c:9c:6d:c3:a<*>,2
-fdd7b63b,36:e2:4b:<*>:a4:c<*>,2
-3ca950d1,<*> <*>:e2:4b:<*>:a4:c<*>,3
-5fbf04ce,<*> <*>:e2:4b:<*>:a4:c0 iPhone,1
-c3aaddda,<*> <*>:5c:<*>:1d:fb:<*>,71
-37902d03,<*> <*>:5c:<*>:1d:fb:<*> iPhone,56
-f6a28a7d,<*> <*>:1f:f2:2c:f0:4b,1
-cf9f6097,<*> <*>:1f:f2:2c:f0:4b Z-Flip4-cua-Huong-Giang,1
-392a581b,<*> <*>:a4:c0:<*>:c9:2d,2
-88a6b301,<*> <*>:ed:<*>:a7:<*>:c<*>,3
-75d6b7e2,04:ed:<*>:a7:<*>:c<*>,1
-57f88a49,<*> <*>:ed:<*>:a7:<*>:c7 DESKTOP-550EUU<*>,1
-207ecbce,<*> <*>:8c:a0:<*>:7e:6b,1
-75115d79,<*> <*>:8c:a0:<*>:7e:6b VANPHUC<*>,1
-dfbe3e07,<*> <*>:b8:ba:<*>:bb:be,1
-320e2ce0,<*> <*>:b8:ba:<*>:bb:be V50S-ThinQ,1
-176b5aca,<*> <*>:bf:<*>:b8:d9:f<*>,1
-33f4226f,<*> <*>:bf:<*>:b8:d9:f8 iPhone,1
-51544666,<*> <*>:<*>:<*>:<*>:2c:d<*>,1
-9af0ea3e,<*> <*>:<*>:<*>:<*>:2c:d3 iPhone,1
-dea5d846,3a:4e:<*>:4e:<*>:c<*>,1
-59b52d1c,<*> 3a:4e:<*>:4e:<*>:c<*>,2
-21a1440f,<*> 3a:4e:<*>:4e:<*>:c1 Redmi-Note-<*>-Pro-5G,1
-8d0a8fed,<*> 8e:c8:2b:<*>:ea:<*>,9
-cafa5687,<*> 8e:c8:2b:<*>:ea:<*> iPhone,5
-71be8440,<*> <*>:6a:c5:<*>:<*>:ad,1
-28384f01,<*> <*>:6a:c5:<*>:<*>:ad hait<*>,1
-f61599b1,<*> f8:<*>:d2:c7:<*>:5f,1
-b222e99c,<*> f8:<*>:d2:c7:<*>:5f DESKTOP-SV3DKME,1
-433fb70f,fa:f5:<*>:<*>:b4:4f,2
-97e46ab4,<*> fa:f5:<*>:<*>:b4:4f,4
-c0093906,<*> 5a:3f:<*>:<*>:cb:f<*>,1
-31de499e,<*> 5a:3f:<*>:<*>:cb:f3 2107113SG,1
-7360da68,<*> 8e:<*>:<*>:d9:<*>:2a,10
-fe44a3ca,72:fd:d4:0c:f0:<*>,3
-25bf8d95,<*> <*>:fd:d4:0c:f0:<*>,7
-89ec0621,<*> <*>:fd:d4:0c:f0:<*> S21-cua-Bao,4
-8ddfa351,<*> a8:<*>:4a:9b:<*>:ff,3
-875539c4,<*> a8:<*>:4a:9b:<*>:ff MSI,3
-a7cab1bf,<*> 1a:a3:f1:1d:<*>:<*>,3
-ca90cac2,<*> 1a:a3:f1:1d:<*>:<*> iPhone,3
-5a0982ba,<*> c4:9d:ed:<*>:a1:da,14
-a6295773,<*> c4:9d:ed:<*>:a1:da DESKTOP-IE8P3M<*>,10
-73532e80,<*> 9a:<*>:<*>:ac:<*>:3d,5
-a12405ba,86:ea:d9:<*>:<*>:9e,3
-6cb6d04d,<*> <*>:ea:d9:<*>:<*>:9e,13
-b267a634,<*> <*>:6b:<*>:fb:0f:<*>,1
-99067245,<*> <*>:6b:<*>:fb:0f:<*> Luong-s-S24-Ultra,1
-005e81e4,<*> <*>:d0:<*>:a8:<*>:d<*>,4
-5be3959b,<*> <*>:d0:<*>:a8:<*>:d6 TTDVSBH,4
-3c0335f8,5a:f6:ec:f5:2f:<*>,2
-5072729e,<*> 5a:f6:ec:f5:2f:<*>,3
-44601932,<*> 5a:f6:ec:f5:2f:<*> iPhone,1
-fd043908,2e:<*>:<*>:df:8c:d<*>,3
-6b8ba29e,<*> 2e:<*>:<*>:df:8c:d<*>,4
-c77d088c,<*> 2e:<*>:<*>:df:8c:d7 iPhone,1
-d4e4af99,<*> be:a9:<*>:e5:b6:<*>,3
-3038afff,<*> be:a9:<*>:e5:b6:<*> iPhone,3
-0f6cfdef,DNS-rebind attack detected: <*>,3
-5f800b94,c6:<*>:cf:6f:e3:<*>,1
-489eff17,5e:<*>:b8:<*>:f5:<*>,2
-147d4d34,<*> 5e:<*>:b8:<*>:f5:<*>,4
-82a745e6,<*> 5a:<*>:e3:5d:<*>:fd,1
-f0764202,<*> 5a:<*>:e3:5d:<*>:fd iPhone,1
-53f46beb,<*> <*>:0b:2a:bf:e9:c<*>,1
-fce52a55,<*> <*>:0b:2a:bf:e9:c4 vthomeap<*>,1
-658a4e0d,<*> <*>:0b:2a:bf:e9:<*>,1
-7ff057ab,<*> <*>:0b:2a:bf:e9:<*> vthomeap<*>,1
-0d97d02b,<*> <*>:0b:2a:f1:ba:<*>,1
-e90844d1,<*> <*>:0b:2a:f1:ba:<*> vthomeap<*>,1
-50a48c71,96:<*>:<*>:3f:a5:<*>,2
-30f73c13,<*> <*>:<*>:<*>:3f:a5:<*>,9
-4bc8c730,<*> <*>:<*>:<*>:3f:a5:<*> OPPO-A15s,7
-161f5949,4e:b2:<*>:<*>:<*>:2e,2
-94c68822,<*> 4e:b2:<*>:<*>:<*>:2e,3
-90526373,<*> 4e:b2:<*>:<*>:<*>:2e iPhone,1
-7e53636e,<*> <*>:e4:ec:e2:b9:<*>,1
-5a85349d,<*> <*>:e4:ec:e2:b9:<*> M51-cua-Ngoc,1
-5bb0eb64,9e:a4:7c:5e:<*>:c<*>,2
-b75915db,<*> 9e:a4:7c:5e:<*>:c<*>,4
-58599f35,<*> fe:c8:be:<*>:bc:6e,2
-9ad094a5,<*> fe:c8:be:<*>:bc:6e iPhone,2
-f0ea711a,<*> <*>:ea:2d:9a:<*>:fe,1
-152b09f0,<*> <*>:ea:2d:9a:<*>:fe Tiens-iPhone,1
-e5e9dc08,<*> 5e:5b:2a:0f:<*>:a<*>,3
-1ad5ceec,<*> <*>:de:<*>:<*>:e3:<*>,5
-bf914098,90:de:<*>:<*>:e3:<*>,2
-719c1553,<*> <*>:de:<*>:<*>:e3:<*> DESKTOP-E27PS1L,2
-94d198f4,<*> 5e:5b:2a:0f:<*>:a4 iPhone,2
-100a0068,<*> f2:<*>:<*>:<*>:<*>:<*>,1
-09d4daf3,<*> f2:<*>:<*>:<*>:<*>:<*> iPhone,1
-12f48da5,<*> a2:cd:df:<*>:<*>:f<*>,58
-4a8d1017,<*> a2:cd:df:<*>:<*>:f3 Watch,58
-3c5720e0,<*> b8:<*>:<*>:2e:c9:bc,1
-8b0d2fe1,<*> b8:<*>:<*>:2e:c9:bc DESKTOP-KT0P<*>,1
-949be809,<*> <*>:<*>:7c:a9:dd:f<*>,4
-903a2715,<*> <*>:2e:<*>:d0:cb:f<*>,2
-02f5bad8,<*> 8a:<*>:7b:3a:<*>:b<*>,1
-12e92737,<*> 8a:<*>:7b:3a:<*>:b3 iPhone,1
-ab577270,<*> ee:<*>:<*>:<*>:ff:c<*>,4
-9b59ec98,ee:<*>:<*>:<*>:ff:c<*>,2
-f345a581,<*> a2:<*>:0d:<*>:bd:b<*>,2
-f352c63e,7a:<*>:ea:<*>:<*>:<*>,1
-3e8365ee,<*> 7a:<*>:ea:<*>:<*>:<*>,2
-affeb6cd,<*> 7a:<*>:ea:<*>:<*>:<*> tuanhace-s-Samsung-S20-FE,1
-157b8b15,<*> b4:6b:fc:<*>:cb:0e,1
-a7b03707,<*> b4:6b:fc:<*>:cb:0e cuongvn,1
-15fc6407,f4:<*>:2a:<*>:<*>:ae,4
-83f3e616,<*> f4:<*>:2a:<*>:<*>:ae,6
-dca9d844,8e:f6:3b:e6:d6:<*>,1
-4f5da28a,<*> 8e:f6:3b:e6:d6:<*>,2
-3ca76f3b,<*> 8e:f6:3b:e6:d6:<*> iPhone,1
-71062225,12:5c:<*>:1d:fb:<*>,6
-b50a03da,<*> f4:<*>:e2:bf:8a:1e,1
-4b48609d,<*> f4:<*>:e2:bf:8a:1e POCOPHONEF1-POCOPHON,1
-ecb0e806,<*> <*>:b9:6c:dc:<*>:e<*>,1
-db014d49,<*> <*>:b9:6c:dc:<*>:e0 Redmi-Note-<*>,1
-e627c20e,f8:4e:<*>:a7:7d:<*>,1
-83cdb60a,<*> f8:4e:<*>:a7:7d:<*>,2
-037d524f,<*> f8:4e:<*>:a7:7d:<*> Hiu,1
-10bcab90,<*> fa:0c:e5:dd:5c:b<*>,14
-efd718f9,<*> fa:0c:e5:dd:5c:b4 Tab-S6-Lite-cua-Hoan,14
-55071796,<*> <*>:5c:<*>:1d:fb:<*> wrong server-ID,1
-fa41349e,<*> f4:4e:e3:d5:bc:8b,1
-0cbb6806,<*> f4:4e:e3:d5:bc:8b TABLET-KQJN2OFE,1
-9595e226,<*> a8:<*>:a4:1a:8c:b<*>,1
-c64a21ad,<*> a8:<*>:a4:1a:8c:b9 WIN-OO0O5MDB<*>,1
-771039af,<*> <*>:af:<*>:<*>:d0:<*>,3
-510716c7,<*> <*>:af:<*>:<*>:d0:<*> LAPTOP-2J2TAESC,3
-2e6496d2,ac:<*>:6a:<*>:9f:f<*>,1
-446bad2b,<*> ac:<*>:6a:<*>:9f:f<*>,3
-2d5834bb,<*> <*>:<*>:2e:<*>:<*>:<*>,1
-c6b28e1d,<*> <*>:<*>:2e:<*>:<*>:<*> TABLET-HGGQ7B6Q,1
-2e086bd4,9a:<*>:<*>:ac:<*>:3d,1
-47ced32c,<*> ae:2a:<*>:<*>:3c:a<*>,1
-a6526b13,<*> ae:2a:<*>:<*>:3c:a8 iPhone,1
-fa500db3,<*> <*>:<*>:7f:6f:eb:c<*>,1
-dc90403c,<*> <*>:<*>:7f:6f:eb:c2 DESKTOP-CJUO5I<*>,1
-b9d9e427,f6:<*>:<*>:5a:e5:a<*>,1
-2d9b7d5b,<*> f6:<*>:<*>:5a:e5:a<*>,3
-cc1e79e2,ca:6c:<*>:b4:7f:<*>,2
-855bc1bb,<*> ca:6c:<*>:b4:7f:<*>,3
-021063fc,<*> ca:6c:<*>:b4:7f:<*> iPhone,1
-5af099a0,<*> a6:dc:4c:<*>:5b:<*>,2
-516ada1c,<*> <*>:5f:4f:ab:af:<*>,2
-da38ce8c,ea:ff:<*>:bb:c9:<*>,3
-ee2a3124,<*> ea:ff:<*>:bb:c9:<*>,4
-2b49bd70,<*> ea:ff:<*>:bb:c9:<*> OPPO-A16k,1
-2ca5107f,<*> 9c:1c:<*>:e5:4d:cf,1
-c9ab2ff7,<*> 9c:1c:<*>:e5:4d:cf <*>,1
-171a3253,<*> <*>:<*>:<*>:<*>:<*>:3a,4
-8a5564a8,<*> 0a:af:1b:a9:1d:ff,2
-912c3de0,3c:f5:<*>:<*>:b2:<*>,2
-f94a3aa5,<*> 3c:f5:<*>:<*>:b2:<*>,3
-e7bdb3a7,<*> 3c:f5:<*>:<*>:b2:<*> android-1d93372113e6b6b<*>,1
-88f01700,<*> <*>:dd:f6:ff:<*>:ba,10
-c6cfd809,<*> <*>:dd:f6:ff:<*>:ba Phuong-s-A<*>,10
-fc945c48,a6:<*>:cc:5f:9e:6a,2
-3a0d1108,<*> a6:<*>:cc:5f:9e:6a,3
-ba862082,<*> a6:<*>:cc:5f:9e:6a iPhone,1
-10b76de9,62:<*>:d0:4a:<*>:ff,3
-dadaee5f,<*> <*>:<*>:d0:4a:<*>:ff,4
-b808e574,<*> <*>:<*>:d0:4a:<*>:ff BTKR-W<*>,1
-faca27fc,<*> d0:<*>:<*>:<*>:d4:2e,1
-93c67990,<*> d0:<*>:<*>:<*>:d4:2e ont-HP-<*>-G3-MT,1
-f3a3a5c3,rpc_handle_login called,1
-110c6ec8,get lock_state: <*>,1
-e22fb23a,Successfully set lock_login_state to <*>,1
-7880dc5e,accepted login on / for admim from <*>,1
-de5effd8,"name is not allowed. Only messages, wifilog, and logmesh are allowed.",2
-a99742dd,log success for downloading <*>,2
+f73f46e9,new client mac <*> created on bss <*>,408
+734480a4,"<*> Channel <*> is Overload: Avg CU=<*> > CU OL threshold=<*>, CU Sum=<*> for <*> samples",59
+25589ad0,<*> Associated radio channel <*> is not overload yet,1013
+c32ea2b3,<*> channel utils monitor: <*>,98
+42934e80,<*> Channel = <*> is OL,2797
+35c7b081,delete <*> in assoc_clients,195
+188d7d34,client <*> leave bssid <*>,194
+7b5e1cd2,<*> Got remote client LEAVE notific for client <*> that has not left a local/remote bss <*>,258
+2d662a75,drop <*> <*> msgtype=0x<*>,3243
+36adfe94,Deleted assoc_client: <*> from dev: <*>,255
+8bdb86ee,cli (<*>) <*> join <*> BSS <*>,464
+b3e00c7f,remove <*> in <*>,145
+8d1d00ed,Got remote client JOIN notific for client <*> at bss <*> that has not left a local/remote bss <*>,92
+8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>,92
+df18c1e5,parse_cmdu_message fail,2419
+0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>,765
+f1184ac6,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current Score <*>, airmon rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, curr score TH <*>, curr rssi -<*>",51
+55e56737,"<*> Build Steer Request to Agent <*> <*> <*> bss_cnt <*>, operating class=<*>, channel=<*>",145
+d1e0a7a8,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> <*> <*> <*> 3a,1
+3eb580e4,<*> Client(<*>) <*> Trigger = <*>,468
+b78a17b6,Client (<*>) <*> has been steered <*> <*>,200
+d5c1bbc9,insert assoc_client <*> in <*>,198
+104250db,Got local join for client <*> at bss <*> that has not left me/remote BSS <*>,94
+a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore,203
+409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>,622
+6d3c53ec,<*> assoc cli <*> invalid ul rssi <*>,20
+45c81714,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current score <*>, 11k rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, current_score_th <*>, curr rssi -<*>",59
+c514dc55,"<*> Send BTM Request to STA (<*>) <*> Target bss <*> channel <*>, opclass <*>",55
+d721f9a5,<*> Recv BTM Response STA: <*> Target: <*> status(<*>),114
+38f0f100,<*> cli (<*>) <*> update channel=<*> at band <*> without probe request,11
+902a7155,resend_message Unassoc STA Link Metrics Query to rax3 <*> premid=<*> retry_cnt_left=<*>,154
+53b8dc98,<*> client <*> <*> on <*> is a <*> candidate,117
+9a2136ff,<*> cli <*> rssi <*> > <*> still good now -> continue to steer,5
+2fba6b9b,<*> cli <*> Air mon failed..no reports,139
+1f117301,resend_message Beacon Metrics Query to rax3 <*> premid=<*> retry_cnt_left=<*>,51
+a4993dc6,Assoc for a client that has not been seen yet <*>,2
+9f95c47b,"cli (<*>) <*> current sp_streams=<*>, new sp_streams=<*>",30
+bfafdea5,<*> **** No Alternative BSSs(overloaded bss / ESS mismatch / chan not supp ****,3
+1be152f7,Remote client LEAVE notific for a client that has not been seen yet <*>,4
+aab1bbb2,"<*> No suitable BSS found, going to the idle state",6
+e0e0c815,Remote JOIN client notific for a client that has not been seen yet <*>,21
+8455f1b2,Trigger Channel ID on Channel <*> for <*>,34
+ff93bef8,update ch(<*>) for cli_id:<*>,14
+17b55832,<*> supported client bands <*>,27
+f2f57324,<*> for client <*> Candidate BSS is NULL,5
+620332a8,resend_message Map Policy Config Request to rax3 <*> premid=<*> retry_cnt_left=<*>,5
+34dff5ba,resend_message Client Assoc Control Request to rax3 <*> premid=<*> retry_cnt_left=<*>,37
+60e69528,"Uinitialized radio, continuing",12
+5434ba6f,cli has already left current <*>,3
+410d1073,Invalid trigger (<*>) CHAN_MEASUREMENT_COMPLETE,13
+c63b05ca,resend_message Combined Infrastructure Metrics to rax3 <*> premid=<*> retry_cnt_left=<*>,5
+4e0103ac,"Send Sta Cap Query message to device <*>:0b:2a:f1:ba:<*>, client fa:<*>:<*>:<*>:0c:e<*>",1
+2120bc99,"cli fa:<*>:<*>:<*>:0c:e8 hasn't been updated: bssid <*>:<*>:<*>:<*>:<*>:<*>, current_chan <*>",1
+d97ad499,received sta fa:<*>:<*>:<*>:0c:e8 at bssid <*>:0b:2a:d1:ba:<*> capability report message,1
+d9beb5c2,"<*> Accomadate Target Client <*> on BSS <*> 11k rssi <*> with Chan_util=<*>, EstAirTime=<*>, SafetyTh=<*>",7
+e38b04c2,"cli (<*>) <*> does not 11k report on own bss, rssi_uplink=-<*>",14
+7c3ef6db,insert sta(de:<*>:ca:b1:ca:<*>) in bss(<*>:0b:2a:cf:e9:<*>),1
+fefcd600,associated client <*> found in bss <*> update associated client,5
+5c1599a4,target_bssid is invalid:<*>:<*>:<*>:<*>:<*>:<*>,1
+52b5dc13,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> 9b 7e d0 c<*>,1
+5da8313f,- hexdump(len=<*>): <*> 0b 2a <*> <*> <*> a3 <*> <*> <*> 2e b2 <*> b1 c0 c<*>,4
+2be73937,"<*> Cannot accomadate Target Client f2:<*>:<*>:<*>:0e:<*> on BSS <*>:0b:2a:cf:e9:<*> 11k rssi <*> with Chan_util=<*>, EstAirTime=<*>, SafetyTh=<*>",1
+2731cdb2,cli (<*>) <*> supports new channel <*>,4
+a393c391,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> be a9 <*> e5 b6 <*>,1
+a45ef584,<*> Invalid Trigger (<*>) AUTH_DENY_MAX_REACHED,1
+874aa721,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> <*> <*> 4b b5 da <*>,1
+d418f05c,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> 0a <*> a3 9a <*> <*>,2
+ecd47895,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> <*> cd 2d 0c 2d <*>,1
+281b79f1,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> ce c8 9d <*> c5 1e,1
+f77af5c1,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> 4b b5 da <*>,1
+21b81dec,- hexdump(len=<*>): <*> 0b 2a <*> <*> <*> a3 <*> <*> <*> 2a 4f 4c <*> 7a <*>,3
+29ebe076,<*> Max Steer Cand reached <*>,1
+c2c60cf7,invalid radio_idx!,1
+5bef5bcf,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> f6 de e1 <*> d4 a<*>,1
+e36c7057,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> 7a <*> ea <*> <*> <*>,1
+62cb945c,"<*> cli (<*>) e2:a4:6c:fb:a3:<*> candidate bss for offloading is <*>:0b:2a:cf:e9:<*>: target score <*>, current score <*>, 11k rssi <*>, target rssi <*>, hop count <*>",3
+a82c6d7a,"btm_req_len=<*>, frame->u.btm_req: request_mode=0x07, disassociation_timer=<*>, validity_interval=<*>",3
+1f72368d,resend_message Client Steering Request to rax3 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,1
+e395f307,- hexdump(len=<*>): <*> 0b 2a bf e9 <*> a3 <*> <*> <*> d0 <*> <*> f6 <*> <*>,1
+85fd8172,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> e2 a4 6c fb a3 <*>,1
