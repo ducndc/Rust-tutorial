@@ -25,4 +25,6 @@ public:
 	void Fit(const MatrixXd &x);
 
 	VectorXi Predict(const MatrixXd &x);
+
+	void Evaluate(const VectorXi& y_true, VectorXi labels);
 };

@@ -1,6 +1,7 @@
 #include "PCA_AnomalyDetector.hpp"
 
 #include <cmath>
+#include <iostream>
 
 using namespace Eigen;
 using namespace std;
@@ -11,7 +12,7 @@ PCA::Fit(
 {
 	int n = X.rows();
 	int d = X.cols();
-	MatrixXd X_cov = x.transpose() * X / n;
+	MatrixXd X_cov = X.transpose() * X / n;
 	SelfAdjointEigenSolver<MatrixXd> eig(X_cov);
 	VectorXd sigma = eig.eigenvalues().reverse();
 	MatrixXd U = eig.eigenvectors().rowwise().reverse();
@@ -67,11 +68,33 @@ PCA::Predict(
 		VectorXd xa = m_projC * X.row(i).transpose();
 		double spe = xa.dot(xa);
 
-		if (spe > threshold)
+		if (spe > m_threshold)
 		{
 		    y_pred[i] = 1;
 		}
 	}
 
 	return y_pred;
+}
+
+void 
+PCA::Evaluate(
+	const VectorXi& y_true,
+	VectorXi labels) 
+{
+    cout << "[Evaluation] Evaluating results...\n";
+    int TP = 0, FP = 0, FN = 0;
+
+    for (int i = 0; i < labels.size(); ++i) 
+    {
+        if (labels[i] == 1 && y_true[i] == 1) TP++;
+        else if (labels[i] == 1 && y_true[i] == 0) FP++;
+        else if (labels[i] == 0 && y_true[i] == 1) FN++;
+    }
+
+    double precision = TP / double(TP + FP + 1e-9);
+    double recall = TP / double(TP + FN + 1e-9);
+    double f1 = 2 * precision * recall / (precision + recall + 1e-9);
+
+    cout << "Precision: " << precision << ", Recall: " << recall << ", F1: " << f1 << endl;
 }
