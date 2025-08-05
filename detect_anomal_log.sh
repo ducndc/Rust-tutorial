@@ -21,4 +21,4 @@ cd ../loganalysis
 python test_PCA_without_label.py
 
 echo "************* VIEW RESULTS **************"
-libreoffice --calc ./results/anomalous_events_with_templates.csv
+libreoffice --calc ./results/anomalous_events_with_templates.csv &

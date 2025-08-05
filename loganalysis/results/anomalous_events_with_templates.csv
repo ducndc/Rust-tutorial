@@ -1,3 +1,12 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-9945,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
-9986,['03c61266'],1.0,03c61266,<*> Controller unreachable by neigbor <*>:0b:2a:bf:e9:<*>
+11399,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
+11455,['aab1bbb2'],1.0,aab1bbb2,"<*> No suitable BSS found, going to the idle state"
+11613,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
+11850,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
+12114,['b78a17b6'],1.0,b78a17b6,Client (<*>) <*> has been steered <*> <*>
+12640,['409a28b1'],1.0,409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>
+14223,['53b8dc98'],1.0,53b8dc98,<*> client <*> <*> on <*> is a <*> candidate
+14471,['f73f46e9'],1.0,f73f46e9,new client mac <*> created on bss <*>
+15052,['a79ab087'],1.0,a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore
+15089,['b3e00c7f'],1.0,b3e00c7f,remove <*> in <*>
+15171,['3eb580e4'],1.0,3eb580e4,<*> Client(<*>) <*> Trigger = <*>

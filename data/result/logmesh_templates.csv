@@ -1,95 +1,81 @@
 EventId,EventTemplate,Occurrences
-03c61266,<*> Controller unreachable by neigbor <*>:0b:2a:bf:e9:<*>,6151
-a5eab5f2,resend_message Unassoc STA Link Metrics Response to apclix0 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,773
-18e2ef5c,do not store this dm_buffer to prevent malicious attacks mid=<*>,113
-96176f67,"sta <*> <*> op_class=<*>, channel=<*>",75
-1d91b1a8,<*> Steer method for client <*> <*> is MANDATE,69
-e3458e8f,<*> Trigger Steering for client <*> <*>,212
-c514dc55,"<*> Send BTM Request to STA (<*>) <*> Target bss <*> channel <*>, opclass <*>",69
-a645642a,<*> Mandate Steering Completed for All Clients,69
-d721f9a5,<*> Recv BTM Response STA: <*> Target: <*> status(<*>),135
-a7289d04,resend_message Beacon Metrics Response to apclix0 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,9
-8bdb86ee,cli (<*>) <*> join <*> BSS <*>,524
-2d662a75,drop <*> <*> msgtype=0x<*>,1602
-f73f46e9,new client mac <*> created on bss <*>,644
-1473b503,resend_message Operating Channel Report to apclix0 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,67
-35c7b081,delete <*> in assoc_clients,96
-188d7d34,client <*> leave bssid <*>,96
-d5c1bbc9,insert assoc_client <*> in <*>,115
-b3e00c7f,remove <*> in <*>,240
-104250db,Got local join for client <*> at bss <*> that has not left me/remote BSS <*>,61
-a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore,129
-3eb580e4,<*> Client(<*>) <*> Trigger = <*>,72
-066dae65,Client (<*>) <*> has been steered MANDATE <*>,69
-8d1d00ed,Got remote client JOIN notific for client <*> at bss <*> that has not left a local/remote bss <*>,331
-8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>,234
-0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>,322
-02b7c3e7,"<*> Tried 0x10 str_methods, but could not go past DECISION state, prohibit cli <*> <*> for <*>",138
-7b5e1cd2,<*> Got remote client LEAVE notific for client <*> that has not left a local/remote bss <*>,514
-36adfe94,Deleted assoc_client: <*> from dev: <*>,508
-a3a65d16,resend_message Client Steering BTM Report to apclix0 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,2
-fefcd600,associated client <*> found in bss <*> update associated client,24
-409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>,142
-fbc43cb4,driver_wext_set_oid: oid=0x969 len (<*>) failed,37
-7de623e8,"<*> error in STEERING_REQUEST_TYPE tlv, need send error tlv in <*> ack",32
-0b056294,<*>(<*>): cli <*> ptk size <= <*>,4
-3c46ae36,issuing sta <*> disconnect to <*>,44
-7562093f,mac_addr=3a:d3:6b:ef:0a:9c,1
-0b0ec225,disconnect sta: sta = <*>,44
-59461764,resend_message Client Steering Completed to apclix0 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,1
-16e6f3d0,mac_addr=<*>:3f:de:dc:cc:<*>,6
-bfafdea5,<*> **** No Alternative BSSs(overloaded bss / ESS mismatch / chan not supp ****,60
-e0e0c815,Remote JOIN client notific for a client that has not been seen yet <*>,40
+f73f46e9,new client mac <*> created on bss <*>,408
+734480a4,"<*> Channel <*> is Overload: Avg CU=<*> > CU OL threshold=<*>, CU Sum=<*> for <*> samples",59
+25589ad0,<*> Associated radio channel <*> is not overload yet,1013
+c32ea2b3,<*> channel utils monitor: <*>,98
+42934e80,<*> Channel = <*> is OL,2797
+35c7b081,delete <*> in assoc_clients,195
+188d7d34,client <*> leave bssid <*>,194
+7b5e1cd2,<*> Got remote client LEAVE notific for client <*> that has not left a local/remote bss <*>,258
+2d662a75,drop <*> <*> msgtype=0x<*>,3243
+36adfe94,Deleted assoc_client: <*> from dev: <*>,255
+8bdb86ee,cli (<*>) <*> join <*> BSS <*>,464
+b3e00c7f,remove <*> in <*>,145
+8d1d00ed,Got remote client JOIN notific for client <*> at bss <*> that has not left a local/remote bss <*>,92
+8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>,92
+df18c1e5,parse_cmdu_message fail,2419
+0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>,765
+f1184ac6,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current Score <*>, airmon rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, curr score TH <*>, curr rssi -<*>",51
+55e56737,"<*> Build Steer Request to Agent <*> <*> <*> bss_cnt <*>, operating class=<*>, channel=<*>",145
+d1e0a7a8,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> <*> <*> <*> 3a,1
+3eb580e4,<*> Client(<*>) <*> Trigger = <*>,468
+b78a17b6,Client (<*>) <*> has been steered <*> <*>,200
+d5c1bbc9,insert assoc_client <*> in <*>,198
+104250db,Got local join for client <*> at bss <*> that has not left me/remote BSS <*>,94
+a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore,203
+409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>,622
+6d3c53ec,<*> assoc cli <*> invalid ul rssi <*>,20
+45c81714,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current score <*>, 11k rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, current_score_th <*>, curr rssi -<*>",59
+c514dc55,"<*> Send BTM Request to STA (<*>) <*> Target bss <*> channel <*>, opclass <*>",55
+d721f9a5,<*> Recv BTM Response STA: <*> Target: <*> status(<*>),114
+38f0f100,<*> cli (<*>) <*> update channel=<*> at band <*> without probe request,11
+902a7155,resend_message Unassoc STA Link Metrics Query to rax3 <*> premid=<*> retry_cnt_left=<*>,154
+53b8dc98,<*> client <*> <*> on <*> is a <*> candidate,117
+9a2136ff,<*> cli <*> rssi <*> > <*> still good now -> continue to steer,5
+2fba6b9b,<*> cli <*> Air mon failed..no reports,139
+1f117301,resend_message Beacon Metrics Query to rax3 <*> premid=<*> retry_cnt_left=<*>,51
+a4993dc6,Assoc for a client that has not been seen yet <*>,2
 9f95c47b,"cli (<*>) <*> current sp_streams=<*>, new sp_streams=<*>",30
-2731cdb2,cli (<*>) <*> supports new channel <*>,29
-c7db5720,mac_addr=b8:<*>:<*>:2e:cc:<*>,1
-92a7cd5d,mac_addr=e4:a7:a0:<*>:f6:3b,1
-c4efcb0e,mac_addr=a2:<*>:0d:<*>:bd:b<*>,2
-008fb819,mac_addr=<*>:<*>:3f:b2:b0:<*>,2
-bff143c3,mac_addr=<*>:e4:ec:e2:b9:<*>,1
-9a3d6443,mac_addr=<*>:ea:2d:9a:<*>:fe,1
-70283d74,chan_mon_handle_steering_req: existing steer request there... <*>: 0x1769eea<*>,1
-ec61b61e,mac_addr=b2:1a:3f:4c:3e:9e,2
-c1c6bbc4,mac_addr=b8:<*>:<*>:2e:c9:bc,1
-6be4bc80,mac_addr=aa:4c:3d:5a:<*>:6d,1
-48add1d1,mac_addr=f2:<*>:fa:<*>:c0:c<*>,2
-46495384,mac_addr=<*>:6d:1f:f8:<*>:a<*>,2
-fedea674,mac_addr=c2:<*>:<*>:<*>:<*>:bb,2
-a4993dc6,Assoc for a client that has not been seen yet <*>,3
-d972364b,bssid(4d:<*>:<*>:<*>:<*>:<*>),2
-71598b84,bssid(<*>:0b:2a:9f:e9:c5),2
-05921969,bssid(<*>:0b:2a:bf:e9:c5),2
-51f54299,mac_addr=fe:b4:d3:cd:6a:<*>,1
+bfafdea5,<*> **** No Alternative BSSs(overloaded bss / ESS mismatch / chan not supp ****,3
+1be152f7,Remote client LEAVE notific for a client that has not been seen yet <*>,4
+aab1bbb2,"<*> No suitable BSS found, going to the idle state",6
+e0e0c815,Remote JOIN client notific for a client that has not been seen yet <*>,21
+8455f1b2,Trigger Channel ID on Channel <*> for <*>,34
+ff93bef8,update ch(<*>) for cli_id:<*>,14
+17b55832,<*> supported client bands <*>,27
+f2f57324,<*> for client <*> Candidate BSS is NULL,5
+620332a8,resend_message Map Policy Config Request to rax3 <*> premid=<*> retry_cnt_left=<*>,5
+34dff5ba,resend_message Client Assoc Control Request to rax3 <*> premid=<*> retry_cnt_left=<*>,37
 60e69528,"Uinitialized radio, continuing",12
 5434ba6f,cli has already left current <*>,3
-2ae8579f,mac_addr=f4:<*>:e2:bf:8a:1e,1
-e804518c,mac_addr=<*>:5c:b6:0b:6f:b<*>,1
-b49ea917,mac_addr=<*>:<*>:<*>:3f:<*>:c<*>,1
-37113ff3,mac_addr=dc:<*>:<*>:c0:ca:<*>,2
-e70ad332,mac_addr=<*>:<*>:<*>:<*>:<*>:3a,1
-0d89d855,mac_addr=<*>:c8:<*>:<*>:<*>:1b,1
-1bab6d2c,mac_addr=9e:<*>:1b:<*>:<*>:<*>,1
-a358b406,mac_addr=<*>:2e:<*>:d0:cb:f<*>,1
-e6ccb5cf,mac_addr=fe:c8:be:<*>:bc:6e,1
-1be152f7,Remote client LEAVE notific for a client that has not been seen yet <*>,2
-422dbf79,mac_addr=<*>:<*>:0b:5d:db:e<*>,1
-ac2d520a,mac_addr=f2:<*>:b2:8d:<*>:<*>,1
-1eb810dd,mac_addr=2e:b2:<*>:b1:c0:c<*>,1
-01f99261,mac_addr=<*>:8f:6a:a6:ae:<*>,1
-15926635,<*> port <*> UP,1
-aa6a80d1,<*> tx multicast discovery(mid-f2e5) with vs tlv on eth<*>,1
-95770dd6,map_build_one_assoc_sta_ext_link_metric,5
-a5b02577,[<*>;31m<*>[0mmap_build_one_assoc_sta_ext_link_metric,5
-cc173b9c,ext sta metics info cnt=<*>,5
-a5980eb8,<*> port <*> DOWN,1
-85f4935c,mac_addr=<*>:<*>:e7:e8:8b:d<*>,1
-29d6696e,mac_addr=<*>:bf:<*>:b8:d9:f<*>,1
-9c4ff946,mac_addr=<*>:9f:9a:e4:ac:<*>,1
-e87d6511,mac_addr=fa:7b:fa:d4:<*>:<*>,1
-63f70daf,<*> timeout!!! del non neighbor dev(b0:a8:ce:b3:7f:<*>),1
-a4a81c79,<*> mark <*> invalid,4
-24e524f6,<*> mark <*> valid,4
-7f5365b0,<*> leaf delete from current(0x7fb3ced940)(<*>:0b:2a:bf:e9:<*>),1
-25fb3f41,del R3 sec info after <*> sec,1
-941605f8,<*> tx query(mid-32f4) to <*>.<*> dev(<*>:0b:2a:bf:e9:<*>) on apclix<*>,1
-8bc7b86c,<*> leaf add!current(0xd8c4ba0)(<*>:0b:2a:bf:e9:<*>)----->child(0xd8dad00)(<*>:0b:2a:bf:e9:<*>),1
+410d1073,Invalid trigger (<*>) CHAN_MEASUREMENT_COMPLETE,13
+c63b05ca,resend_message Combined Infrastructure Metrics to rax3 <*> premid=<*> retry_cnt_left=<*>,5
+4e0103ac,"Send Sta Cap Query message to device <*>:0b:2a:f1:ba:<*>, client fa:<*>:<*>:<*>:0c:e<*>",1
+2120bc99,"cli fa:<*>:<*>:<*>:0c:e8 hasn't been updated: bssid <*>:<*>:<*>:<*>:<*>:<*>, current_chan <*>",1
+d97ad499,received sta fa:<*>:<*>:<*>:0c:e8 at bssid <*>:0b:2a:d1:ba:<*> capability report message,1
+d9beb5c2,"<*> Accomadate Target Client <*> on BSS <*> 11k rssi <*> with Chan_util=<*>, EstAirTime=<*>, SafetyTh=<*>",7
+e38b04c2,"cli (<*>) <*> does not 11k report on own bss, rssi_uplink=-<*>",14
+7c3ef6db,insert sta(de:<*>:ca:b1:ca:<*>) in bss(<*>:0b:2a:cf:e9:<*>),1
+fefcd600,associated client <*> found in bss <*> update associated client,5
+5c1599a4,target_bssid is invalid:<*>:<*>:<*>:<*>:<*>:<*>,1
+52b5dc13,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> 9b 7e d0 c<*>,1
+5da8313f,- hexdump(len=<*>): <*> 0b 2a <*> <*> <*> a3 <*> <*> <*> 2e b2 <*> b1 c0 c<*>,4
+2be73937,"<*> Cannot accomadate Target Client f2:<*>:<*>:<*>:0e:<*> on BSS <*>:0b:2a:cf:e9:<*> 11k rssi <*> with Chan_util=<*>, EstAirTime=<*>, SafetyTh=<*>",1
+2731cdb2,cli (<*>) <*> supports new channel <*>,4
+a393c391,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> be a9 <*> e5 b6 <*>,1
+a45ef584,<*> Invalid Trigger (<*>) AUTH_DENY_MAX_REACHED,1
+874aa721,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> <*> <*> 4b b5 da <*>,1
+d418f05c,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> 0a <*> a3 9a <*> <*>,2
+ecd47895,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> <*> cd 2d 0c 2d <*>,1
+281b79f1,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> ce c8 9d <*> c5 1e,1
+f77af5c1,- hexdump(len=<*>): <*> 0b 2a f1 ba <*> a3 <*> <*> <*> <*> <*> 4b b5 da <*>,1
+21b81dec,- hexdump(len=<*>): <*> 0b 2a <*> <*> <*> a3 <*> <*> <*> 2a 4f 4c <*> 7a <*>,3
+29ebe076,<*> Max Steer Cand reached <*>,1
+c2c60cf7,invalid radio_idx!,1
+5bef5bcf,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> f6 de e1 <*> d4 a<*>,1
+e36c7057,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> 7a <*> ea <*> <*> <*>,1
+62cb945c,"<*> cli (<*>) e2:a4:6c:fb:a3:<*> candidate bss for offloading is <*>:0b:2a:cf:e9:<*>: target score <*>, current score <*>, 11k rssi <*>, target rssi <*>, hop count <*>",3
+a82c6d7a,"btm_req_len=<*>, frame->u.btm_req: request_mode=0x07, disassociation_timer=<*>, validity_interval=<*>",3
+1f72368d,resend_message Client Steering Request to rax3 almac=<*>:0b:2a:bf:e9:<*> premid=<*> retry_cnt_left=<*>,1
+e395f307,- hexdump(len=<*>): <*> 0b 2a bf e9 <*> a3 <*> <*> <*> d0 <*> <*> f6 <*> <*>,1
+85fd8172,- hexdump(len=<*>): <*> 0b 2a bf e9 c4 a3 <*> <*> <*> e2 a4 6c fb a3 <*>,1

@@ -3,6 +3,9 @@
 ## Library
 
 - Eigen
+- PySide6 (for UI)
+- Pandas
+- Numpy
 
 ## Citation
 
