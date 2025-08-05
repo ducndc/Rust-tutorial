@@ -39,7 +39,7 @@ Processed 83.9% of log lines.
 Processed 90.4% of log lines.
 Processed 96.8% of log lines.
 Processed 100.0% of log lines.
-Parsing done. [Time taken: 0:00:02.614716]
+Parsing done. [Time taken: 0:00:02.759788]
 ************* ANALAYSIS LOG **************
 ====== Input data summary ======
 Loading ../data/result/logmesh_structured.csv
@@ -49,9 +49,9 @@ Train data shape: 10843-by-73
 
 Train phase:
 ====== Model summary ======
-n_components: 41
+n_components: 40
 Project matrix shape: 73-by-73
-SPE threshold: 0.9666835272023777
+SPE threshold: 0.9592513235392192
 
 Test phase:
 ====== Transformed test data summary ======
