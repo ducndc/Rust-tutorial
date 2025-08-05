@@ -39,23 +39,23 @@ Processed 83.9% of log lines.
 Processed 90.4% of log lines.
 Processed 96.8% of log lines.
 Processed 100.0% of log lines.
-Parsing done. [Time taken: 0:00:02.655884]
+Parsing done. [Time taken: 0:00:02.655521]
 ************* ANALAYSIS LOG **************
 ====== Input data summary ======
 Loading ../data/result/logmesh_structured.csv
 Total: 15490 instances, train: 15490 instances, test: 0 instances
 ====== Transformed train data summary ======
-Train data shape: 10843-by-73
+Train data shape: 10843-by-71
 
 Train phase:
 ====== Model summary ======
 n_components: 41
-Project matrix shape: 73-by-73
-SPE threshold: 0.9967034229760775
+Project matrix shape: 71-by-71
+SPE threshold: 0.9857736760042788
 
 Test phase:
 ====== Transformed test data summary ======
-Test data shape: 4647-by-73
+Test data shape: 4647-by-71
 
 ************* VIEW RESULTS **************
 Warning: failed to launch javaldx - java may not function correctly

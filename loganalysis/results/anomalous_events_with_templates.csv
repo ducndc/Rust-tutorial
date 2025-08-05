@@ -1,18 +1,9 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-10899,['f73f46e9'],1.0,f73f46e9,new client mac <*> created on bss <*>
-11051,['8bdb86ee'],1.0,8bdb86ee,cli (<*>) <*> join <*> BSS <*>
-11288,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
-11314,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
-11888,['8b0bff7d'],1.0,8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>
-12115,['35c7b081'],1.0,35c7b081,delete <*> in assoc_clients
-12160,['53b8dc98'],1.0,53b8dc98,<*> client <*> <*> on <*> is a <*> candidate
-12314,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
-12499,['8455f1b2'],1.0,8455f1b2,Trigger Channel ID on Channel <*> for <*>
-12991,['0c0d7679'],1.0,0c0d7679,Idx:<*> <*> RSSI:<*> pkt cnt:<*>
-13047,['45c81714'],1.0,45c81714,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current score <*>, 11k rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, current_score_th <*>, curr rssi -<*>"
-13688,['188d7d34'],1.0,188d7d34,client <*> leave bssid <*>
-13717,['9f95c47b'],1.0,9f95c47b,"cli (<*>) <*> current sp_streams=<*>, new sp_streams=<*>"
-14376,['3eb580e4'],1.0,3eb580e4,<*> Client(<*>) <*> Trigger = <*>
-14739,['902a7155'],1.0,902a7155,resend_message Unassoc STA Link Metrics Query to rax3 <*> premid=<*> retry_cnt_left=<*>
-15022,['b3e00c7f'],1.0,b3e00c7f,remove <*> in <*>
-15235,['a79ab087'],1.0,a79ab087,Delayed remote topology notification... cli (<*>) <*> is already connected to us--ignore
+10943,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
+11040,['25589ad0'],1.0,25589ad0,<*> Associated radio channel <*> is not overload yet
+11650,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
+11679,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
+12686,['8455f1b2'],1.0,8455f1b2,Trigger Channel ID on Channel <*> for <*>
+13396,['45c81714'],1.0,45c81714,"<*> cli (<*>) <*> candidate bss <*> target score <*>, current score <*>, 11k rssi <*>, estimated rate <*>, uplink rate <*>, hop count <*>, target rssi <*>, current_score_th <*>, curr rssi -<*>"
+14265,['17b55832'],1.0,17b55832,<*> supported client bands <*>
+15026,['d5c1bbc9'],1.0,d5c1bbc9,insert assoc_client <*> in <*>

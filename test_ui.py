@@ -39,7 +39,7 @@ class AnomalyDetectionApp(QWidget):
 
         # Device selection
         self.device_selector = QComboBox()
-        self.device_selector.addItems(["APw6", "ONTw6"])
+        self.device_selector.addItems(["APw6", "ONTw6", "XGSPONw6", "ONTw5", "APw5"])
         self.device_selector.currentTextChanged.connect(self.update_device_type)
 
         # Title
@@ -101,7 +101,10 @@ class AnomalyDetectionApp(QWidget):
 
         script_map = {
             "APw6": "./detect_anomal_log.sh",
-            "ONTw6": "./detect_anomal_log.sh"
+            "ONTw6": "./detect_anomal_log.sh",
+            "XGSPONw6": "./detect_anomal_log.sh",
+            "ONTw5": "./detect_anomal_log.sh",
+            "APw5": "./detect_anomal_log.sh"
         }
         script_path = script_map.get(self.device_type)
         if not script_path:
