@@ -1,2 +1,0 @@
-/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/appDetectAnomalLog_autogen/include/../EWIEGA46WW/moc_LogAnalyzer.cpp.json
-/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/appDetectAnomalLog_autogen/include/../EWIEGA46WW/moc_PCA.cpp.json

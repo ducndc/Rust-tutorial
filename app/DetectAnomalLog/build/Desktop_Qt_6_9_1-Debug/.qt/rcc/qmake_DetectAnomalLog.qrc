@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/DetectAnomalLog">
-    <file alias="qmldir">/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/DetectAnomalLog/qmldir</file>
-  </qresource>
-</RCC>
-
