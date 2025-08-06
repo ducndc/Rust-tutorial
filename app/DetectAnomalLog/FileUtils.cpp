@@ -5,24 +5,34 @@
 #include <QProcess>
 #include <QDebug>
 
-QString FileUtils::removeFilePrefix(const QString& path)
+QString
+FileUtils::removeFilePrefix(
+    const QString& path)
 {
     return path.startsWith("file://") ? path.mid(7) : path;
 }
 
-bool FileUtils::cleanDirectory(const QString& path)
+bool
+FileUtils::cleanDirectory(
+    const QString& path)
 {
     QDir dir(path);
+
     if (dir.exists()) {
         if (!dir.removeRecursively()) {
             qWarning() << "Failed to remove directory:" << path;
             return false;
         }
     }
+
     return QDir().mkpath(path);
 }
 
-bool FileUtils::extractArchive(const QString& archivePath, const QString& destDir, QString& firstLogFileFound)
+bool
+FileUtils::extractArchive(
+    const QString& archivePath,
+    const QString& destDir,
+    QString& firstLogFileFound)
 {
     if (!cleanDirectory(destDir)) {
         qWarning() << "Failed to clean extract directory.";
@@ -30,6 +40,7 @@ bool FileUtils::extractArchive(const QString& archivePath, const QString& destDi
     }
 
     QStringList args;
+
     if (archivePath.endsWith(".tar.gz") || archivePath.endsWith(".tgz")) {
         args << "-xzf" << archivePath << "-C" << destDir;
     } else {
@@ -37,6 +48,7 @@ bool FileUtils::extractArchive(const QString& archivePath, const QString& destDi
     }
 
     QProcess tar;
+
     tar.start("tar", args);
     if (!tar.waitForFinished() || tar.exitStatus() != QProcess::NormalExit) {
         qWarning() << "Tar extraction failed.";
@@ -44,16 +56,19 @@ bool FileUtils::extractArchive(const QString& archivePath, const QString& destDi
     }
 
     QDir dir(destDir);
+
     if (dir.exists("logmesh")) {
         firstLogFileFound = dir.absoluteFilePath("logmesh");
         return true;
     }
+
     if (dir.exists("logmesh.old")) {
         firstLogFileFound = dir.absoluteFilePath("logmesh.old");
         return true;
     }
 
     QStringList logFiles = dir.entryList(QStringList() << "*.log" << "*.txt", QDir::Files, QDir::Name);
+
     if (!logFiles.isEmpty()) {
         firstLogFileFound = dir.absoluteFilePath(logFiles.first());
         return true;

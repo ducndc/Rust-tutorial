@@ -54,11 +54,11 @@ private:
     bool m_keepPara;
     int m_depth;
     double m_st;
-    int maxChild;
+    int m_maxChild;
 
-    QVector<QMap<QString, QString>> df_log;  // simple log DataFrame representation
-    QVector<QString> headers;
-    QRegularExpression log_regex;
+    QVector<QMap<QString, QString>> m_dfLog;  // simple log DataFrame representation
+    QVector<QString> m_headers;
+    QRegularExpression m_logRegex;
 
     // Core logic
     bool hasNumbers(const QString& s);
@@ -68,9 +68,9 @@ private:
     std::shared_ptr<LogCluster> fastMatch(const QVector<std::shared_ptr<LogCluster>>& clusters, const QStringList& seq);
     QStringList getTemplate(const QStringList& seq1, const QStringList& seq2);
     void printTree(const std::shared_ptr<Node>& node, int dep);
-    void load_data();
+    void loadData(void);
     QString preprocess(const QString& line);
-    void generateLogFormatRegex();
+    void generateLogFormatRegex(void);
     QStringList getParameterList(const QString& content, const QString& templateStr);
 
     // Output

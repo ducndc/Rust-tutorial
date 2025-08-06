@@ -14,6 +14,7 @@ etc/map/1905d.cfg
 etc/map/mapd_default.cfg
 etc/map/mapd_user.cfg
 etc/map/wts_bss_info_config
+etc/map/restirct_steer_config
 etc/map/sp_rule.cfg
 etc/map/mapd_cfg
 tmp/log/temp_device_log
@@ -21,248 +22,40 @@ cat: logmesh: input file is output file
 cat: messages: input file is output file
 ************* CHECK LOG **************
 Parsing file: ../data/input_log/logmesh
-[Warning] Skip line: Wed Jul 30 16:17:33 2025 daemon.emerg [p1905]: [_1905_ctrl_sock_deinit][521]:
-
-Total lines:  13611
-Processed 7.3% of log lines.
-Processed 14.7% of log lines.
-Processed 22.0% of log lines.
-Processed 29.4% of log lines.
-Processed 36.7% of log lines.
-Processed 44.1% of log lines.
-Processed 51.4% of log lines.
-Processed 58.8% of log lines.
-Processed 66.1% of log lines.
-Processed 73.5% of log lines.
-Processed 80.8% of log lines.
-Processed 88.2% of log lines.
-Processed 95.5% of log lines.
+Total lines:  15490
+Processed 6.5% of log lines.
+Processed 12.9% of log lines.
+Processed 19.4% of log lines.
+Processed 25.8% of log lines.
+Processed 32.3% of log lines.
+Processed 38.7% of log lines.
+Processed 45.2% of log lines.
+Processed 51.6% of log lines.
+Processed 58.1% of log lines.
+Processed 64.6% of log lines.
+Processed 71.0% of log lines.
+Processed 77.5% of log lines.
+Processed 83.9% of log lines.
+Processed 90.4% of log lines.
+Processed 96.8% of log lines.
 Processed 100.0% of log lines.
-Parsing done. [Time taken: 0:00:02.875089]
+Parsing done. [Time taken: 0:00:03.002520]
 ************* ANALAYSIS LOG **************
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
-/home/ont/Documents/log-anomaly-detection/loganalysis/../loganalysis/preprocessing.py:105: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  X_df[event] = [0] * len(X_df)
 ====== Input data summary ======
 Loading ../data/result/logmesh_structured.csv
-Total: 13611 instances, train: 13611 instances, test: 0 instances
+Total: 15490 instances, train: 15490 instances, test: 0 instances
 ====== Transformed train data summary ======
-Train data shape: 9527-by-394
+Train data shape: 10843-by-74
 
 Train phase:
 ====== Model summary ======
-n_components: 313
-Project matrix shape: 394-by-394
-SPE threshold: 1.1307879036271158
+n_components: 40
+Project matrix shape: 74-by-74
+SPE threshold: 1.0009482371811964
 
 Test phase:
 ====== Transformed test data summary ======
-Test data shape: 4084-by-394
+Test data shape: 4647-by-74
 
 ************* VIEW RESULTS **************
 Warning: failed to launch javaldx - java may not function correctly

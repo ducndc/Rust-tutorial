@@ -7,14 +7,21 @@
 #include <QDir>
 #include <QProcess>
 
-LogAnalyzer::LogAnalyzer(QObject *parent) : QObject(parent) {
+LogAnalyzer::LogAnalyzer(
+    QObject *parent) : QObject(parent)
+{
     connect(&pca, &PCA::detectionFinished, this, &LogAnalyzer::analysisFinished);
     connect(&pca, &PCA::detectionError, this, &LogAnalyzer::analysisError);
 }
 
-void LogAnalyzer::analyze(const QString &filepath, const QString &device) {
+void
+LogAnalyzer::analyze(
+    const QString &filepath,
+    const QString &device)
+{
     QString path = FileUtils::removeFilePrefix(filepath);
     QFileInfo info(path);
+
     if (!info.exists()) {
         emit analysisError("Selected file not found.");
         return;
@@ -44,7 +51,7 @@ void LogAnalyzer::analyze(const QString &filepath, const QString &device) {
     QString baseName = logInfo.baseName();
 
     // 1. Parse Log
-    QString log_format = "<Day> <Month> <Date> <Time> <Year> <Level> <Component>: <Function>[<Line>]: <Content>";
+    QString log_format = "<Day> <Month> <Date> <Time> <Year> <Level> <Component>: <Line> <Content>";
 
     QVector<QRegularExpression> regexList = {
                                              QRegularExpression("blk_(|-)[0-9]+"),

@@ -6,25 +6,33 @@
 #include <QRegularExpressionMatchIterator>
 #include <QDebug>
 
-ParseLog::ParseLog(const QString& log_format,
-                   const QString& indir,
-                   const QString& outdir,
-                   int depth,
-                   double st,
-                   int maxChild,
-                   const QVector<QRegularExpression>& rex,
-                   bool keep_para)
+ParseLog::ParseLog(
+    const QString& log_format,
+    const QString& indir,
+    const QString& outdir,
+    int depth,
+    double st,
+    int maxChild,
+    const QVector<QRegularExpression>& rex,
+    bool keep_para)
     : m_path(indir), m_savePath(outdir), m_logFormat(log_format),
-    m_depth(depth - 2), m_st(st), maxChild(maxChild), m_rex(rex), m_keepPara(keep_para) {}
+    m_depth(depth - 2), m_st(st), m_maxChild(maxChild), m_rex(rex), m_keepPara(keep_para) {}
 
-bool ParseLog::hasNumbers(const QString& s) {
+bool
+ParseLog::hasNumbers(
+    const QString& s)
+{
     for (auto ch : s) {
         if (ch.isDigit()) return true;
     }
     return false;
 }
 
-std::shared_ptr<LogCluster> ParseLog::treeSearch(std::shared_ptr<Node> root, const QStringList& seq) {
+std::shared_ptr<LogCluster>
+ParseLog::treeSearch(
+    std::shared_ptr<Node> root,
+    const QStringList& seq)
+{
     int seqLen = seq.size();
     if (!root->childD.contains(QString::number(seqLen))) return nullptr;
 
@@ -48,7 +56,11 @@ std::shared_ptr<LogCluster> ParseLog::treeSearch(std::shared_ptr<Node> root, con
     return fastMatch(*clusters, seq);
 }
 
-void ParseLog::addSeqToPrefixTree(std::shared_ptr<Node> root, std::shared_ptr<LogCluster> cluster) {
+void
+ParseLog::addSeqToPrefixTree(
+    std::shared_ptr<Node> root,
+    std::shared_ptr<LogCluster> cluster)
+{
     int seqLen = cluster->logTemplate.size();
     QString lenKey = QString::number(seqLen);
     std::shared_ptr<Node> parent;
@@ -82,7 +94,12 @@ void ParseLog::addSeqToPrefixTree(std::shared_ptr<Node> root, std::shared_ptr<Lo
     }
 }
 
-double ParseLog::seqDist(const QStringList& seq1, const QStringList& seq2, int& numOfPar) {
+double
+ParseLog::seqDist(
+    const QStringList& seq1,
+    const QStringList& seq2,
+    int& numOfPar)
+{
     int simTokens = 0;
     numOfPar = 0;
 
@@ -96,7 +113,11 @@ double ParseLog::seqDist(const QStringList& seq1, const QStringList& seq2, int& 
     return double(simTokens) / seq1.size();
 }
 
-std::shared_ptr<LogCluster> ParseLog::fastMatch(const QVector<std::shared_ptr<LogCluster>>& clusters, const QStringList& seq) {
+std::shared_ptr<LogCluster>
+ParseLog::fastMatch(
+    const QVector<std::shared_ptr<LogCluster>>& clusters,
+    const QStringList& seq)
+{
     double maxSim = -1.0;
     int maxPar = -1;
     std::shared_ptr<LogCluster> bestMatch = nullptr;
@@ -113,7 +134,11 @@ std::shared_ptr<LogCluster> ParseLog::fastMatch(const QVector<std::shared_ptr<Lo
     return (maxSim >= m_st) ? bestMatch : nullptr;
 }
 
-QStringList ParseLog::getTemplate(const QStringList& seq1, const QStringList& seq2) {
+QStringList
+ParseLog::getTemplate(
+    const QStringList& seq1,
+    const QStringList& seq2)
+{
     QStringList result;
     for (int i = 0; i < seq1.size(); ++i) {
         result << ((seq1[i] == seq2[i]) ? seq1[i] : "<*>");
@@ -121,7 +146,11 @@ QStringList ParseLog::getTemplate(const QStringList& seq1, const QStringList& se
     return result;
 }
 
-void ParseLog::printTree(const std::shared_ptr<Node>& node, int dep) {
+void
+ParseLog::printTree(
+    const std::shared_ptr<Node>& node,
+    int dep)
+{
     QString indent(dep, '\t');
     QString text = (node->depth == 0) ? "Root" : node->digitOrtoken;
     std::cout << indent.toStdString() << text.toStdString() << std::endl;
@@ -132,7 +161,10 @@ void ParseLog::printTree(const std::shared_ptr<Node>& node, int dep) {
     }
 }
 
-QString ParseLog::preprocess(const QString& line) {
+QString
+ParseLog::preprocess(
+    const QString& line)
+{
     QString processed = line;
     for (const auto& re : m_rex) {
         processed = processed.replace(re, "<*>");
@@ -140,37 +172,51 @@ QString ParseLog::preprocess(const QString& line) {
     return processed;
 }
 
-void ParseLog::generateLogFormatRegex() {
-    headers.clear();
+void
+ParseLog::generateLogFormatRegex()
+{
+    m_headers.clear();
+    qWarning() << "log_format raw = " << m_logFormat;
 
     QString pattern = "^\\s*";
-    QRegularExpression splitter("(<[^<>]+>)");
-    QStringList parts = m_logFormat.split(splitter);
 
-    for (const QString& part : parts) {
-        if (part.startsWith("<") && part.endsWith(">")) {
-            QString header = part.mid(1, part.length() - 2);
-            pattern += R"((?P<)" + header + R"(>.*?)\s+)";
-            headers.append(header);
-        } else {
-            QString esc = QRegularExpression::escape(part);
-            esc.replace(" ", "\\s+");
-            pattern += esc + "\\s*";
-        }
+    QRegularExpression tagRe(R"(<[^<>]+>)");
+    QRegularExpressionMatchIterator it = tagRe.globalMatch(m_logFormat);
+
+    int lastPos = 0;
+
+    while (it.hasNext()) {
+        QRegularExpressionMatch match = it.next();
+        int start = match.capturedStart();
+        int end = match.capturedEnd();
+
+        // Static text
+        QString staticText = m_logFormat.mid(lastPos, start - lastPos);
+        QString esc = QRegularExpression::escape(staticText);
+        pattern += esc;
+
+        // Tag: <Field>
+        QString tag = match.captured();
+        QString header = tag.mid(1, tag.length() - 2);
+        m_headers.append(header);
+        pattern += R"(\s*(?P<)" + header + R"(>.*?)\s*)";
+        lastPos = end;
     }
 
-    pattern += "$";
+    QString tail = m_logFormat.mid(lastPos);
+    QString esc = QRegularExpression::escape(tail);
+    pattern += esc;
 
-    log_regex = QRegularExpression(pattern);
-    qWarning() << "Generated pattern:" << log_regex.pattern();
+    pattern += "$";
+    m_logRegex = QRegularExpression(pattern);
+    qWarning() << "Generated pattern:" << m_logRegex.pattern();
 }
 
-
-
-
-void ParseLog::load_data() {
+void
+ParseLog::loadData()
+{
     generateLogFormatRegex();
-    df_log.clear();
+    m_dfLog.clear();
 
     QFile file(m_path + "/" + m_logName);
     qWarning() << "Open log file:" << file.fileName();
@@ -189,17 +235,17 @@ void ParseLog::load_data() {
         QString line = in.readLine().trimmed();
         total++;
 
-        QRegularExpressionMatch match = log_regex.match(line);
+        QRegularExpressionMatch match = m_logRegex.match(line);
         if (match.hasMatch()) {
             QMap<QString, QString> row;
-            for (const QString& header : headers) {
+            for (const QString& header : m_headers) {
                 row[header] = match.captured(header);
             }
             row["LineId"] = QString::number(lineId++);
-            df_log.append(row);
+            m_dfLog.append(row);
             matched++;
 
-            qWarning() << "✅ MATCH:" << line;
+            //qWarning() << "✅MATCH:" << line;
         } else {
             //qWarning() << "❌ NO MATCH:" << line;
         }
@@ -209,9 +255,11 @@ void ParseLog::load_data() {
     file.close();
 }
 
-
-
-QStringList ParseLog::getParameterList(const QString& content, const QString& tmpl) {
+QStringList
+ParseLog::getParameterList(
+    const QString& content,
+    const QString& tmpl)
+{
     QString regexStr = QRegularExpression::escape(tmpl).replace("\\<\\*\\>", "(.*?)");
     QRegularExpression re("^" + regexStr + "$", QRegularExpression::DotMatchesEverythingOption);
     QRegularExpressionMatch match = re.match(content);
@@ -224,7 +272,10 @@ QStringList ParseLog::getParameterList(const QString& content, const QString& tm
     return params;
 }
 
-void ParseLog::outputResult(const QVector<std::shared_ptr<LogCluster>>& clusters) {
+void
+ParseLog::outputResult(
+    const QVector<std::shared_ptr<LogCluster>>& clusters)
+{
     QFile file(m_savePath + "/" + m_logName + "_structured.csv");
     if (!file.open(QIODevice::WriteOnly | QIODevice::Text)) return;
     QTextStream out(&file);
@@ -244,17 +295,20 @@ void ParseLog::outputResult(const QVector<std::shared_ptr<LogCluster>>& clusters
     file.close();
 }
 
-void ParseLog::parse(const QString& name) {
+void
+ParseLog::parse(
+    const QString& name)
+{
     m_logName = name;
-    load_data();
+    loadData();
     auto root = std::make_shared<Node>();
     QVector<std::shared_ptr<LogCluster>> clusters;
-    qDebug() << "Loaded lines:" << df_log.size() << "file name " << name;
-    for (const auto& row : df_log) {
+    qDebug() << "Loaded lines:" << m_dfLog.size() << "file name " << name;
+    for (const auto& row : m_dfLog) {
         int id = row["LineId"].toInt();
         QStringList tokens = preprocess(row["Content"]).split(" ", Qt::SkipEmptyParts);
         auto matched = treeSearch(root, tokens);
-
+        qDebug() << "id = " << id;
         if (!matched) {
             auto cluster = std::make_shared<LogCluster>(tokens, QVector<int>{id});
             clusters.append(cluster);
@@ -267,5 +321,6 @@ void ParseLog::parse(const QString& name) {
             }
         }
     }
+    qDebug() << "Loaded file name end";
     outputResult(clusters);
 }

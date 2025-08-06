@@ -1,30 +1,14 @@
 SessionId,EventSequence,Anomaly,EventId,EventTemplate
-9746,['7b5e1cd2'],1.0,7b5e1cd2,<*> Got remote client LEAVE notific for client <*> that has not left a local/remote bss <*>
-9772,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
-9868,['8b0bff7d'],1.0,8b0bff7d,client <*> Stale <*> leave <*> (curr bss <*>
-9903,['f73f46e9'],1.0,f73f46e9,new client mac <*> created on bss <*>
-9941,['18e2ef5c'],1.0,18e2ef5c,do not store this dm_buffer to prevent malicious attacks mid=<*>
-10084,['8edb6097'],1.0,8edb6097,<*> Controller unreachable by neigbor <*>:0b:2a:f1:ba:<*>
-10160,['8bdb86ee'],1.0,8bdb86ee,cli (<*>) <*> join <*> BSS <*>
-10536,['b3e00c7f'],1.0,b3e00c7f,remove <*> in <*>
-10729,['7de623e8'],1.0,7de623e8,"<*> error in STEERING_REQUEST_TYPE tlv, need send error tlv in <*> ack"
-10769,['3eb580e4'],1.0,3eb580e4,<*> Client(<*>) <*> Trigger = <*>
-11009,['d721f9a5'],1.0,d721f9a5,<*> Recv BTM Response STA: <*> Target: <*> status(<*>)
-11142,['28e9e37d'],1.0,28e9e37d,Successfully replaced leftover ctrl_iface socket '/tmp/wapp_server'
-11177,['61c72ebd'],1.0,61c72ebd,sendto failed: <*> - Connection refused
-11307,['b232b719'],1.0,b232b719,"ctrl_iface exists, but does not allow connections - assuming it was leftover from forced program termination"
-11359,['abde7035'],1.0,abde7035,driver_wext_get_oid: <*> len (<*>) failed
-11412,['88f68080'],1.0,88f68080,init eth_data<*>=<*>
-11508,['d1a794c2'],1.0,d1a794c2,"he_cap (<*>): tx_stream = <*>, rx_stream = <*>, he_<*> = <*>, he_<*> = <*>, he_mcs_len = <*>"
-11513,['d27cadec'],1.0,d27cadec,op_class: (<*>) num_of_op_class = <*>
-11620,['e8f9026d'],1.0,e8f9026d,radio <*> orignal_bw(<*>) opclass(<*>) ch(<*>)
-11820,['e8a41fbf'],1.0,e8a41fbf,<*> <*> matches current priority
-11832,['50d530e9'],1.0,50d530e9,<*> controller not found in MAP dev list
-11998,['da45f2c8'],1.0,da45f2c8,<*> tx multicast search <*> on all intf
-12073,['fb081b6d'],1.0,fb081b6d,create operational <*> ssid=VT5_W6_240B2ABFE<*>
-12319,['4444e87c'],1.0,4444e87c,iwpriv <*> set <*>
-12488,['8ca4249c'],1.0,8ca4249c,<*> Run cmd: /usr/bin/wifi_config_save <*> SSID VHT KEANGNAM
-12839,['f0fbbc7f'],1.0,f0fbbc7f,rax3 is bh bss; enable all tx rx for this interface
-12861,['3b02e827'],1.0,3b02e827,flash_wsc_config ++
-12955,['be083d4d'],1.0,be083d4d,Non Operable channel on inactive BH
-13610,['dce28ca6'],1.0,dce28ca6,can't found controller.
+10873,['42934e80'],1.0,42934e80,<*> Channel = <*> is OL
+10893,['2d662a75'],1.0,2d662a75,drop <*> <*> msgtype=0x<*>
+11010,['d5c1bbc9'],1.0,d5c1bbc9,insert assoc_client <*> in <*>
+11040,['25589ad0'],1.0,25589ad0,<*> Associated radio channel <*> is not overload yet
+11159,['3eb580e4'],1.0,3eb580e4,<*> Client(<*>) <*> Trigger = <*>
+12393,['b78a17b6'],1.0,b78a17b6,Client (<*>) <*> has been steered <*> <*>
+12475,['df18c1e5'],1.0,df18c1e5,parse_cmdu_message fail
+12683,['8bdb86ee'],1.0,8bdb86ee,cli (<*>) <*> join <*> BSS <*>
+13160,['55e56737'],1.0,55e56737,"<*> Build Steer Request to Agent <*> <*> <*> bss_cnt <*>, operating class=<*>, channel=<*>"
+13373,['d721f9a5'],1.0,d721f9a5,<*> Recv BTM Response STA: <*> Target: <*> status(<*>)
+14927,['409a28b1'],1.0,409a28b1,send_air_monitor_response_check Monitor Result For Ind <*> reference <*>
+15142,['b3e00c7f'],1.0,b3e00c7f,remove <*> in <*>
+15460,['53b8dc98'],1.0,53b8dc98,<*> client <*> <*> on <*> is a <*> candidate
