@@ -1,0 +1,14 @@
+-rootPath
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog
+-cmake-output
+-output-file
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appDetectAnomalLog_conf.cmake
+-importPath
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/DetectAnomalLog
+-importPath
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/ont/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_DetectAnomalLog.qrc
+/home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appDetectAnomalLog_raw_qml_0.qrc

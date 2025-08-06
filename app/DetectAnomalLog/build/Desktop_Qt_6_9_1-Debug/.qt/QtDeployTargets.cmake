@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appDetectAnomalLog_FILE /home/ont/Documents/log-anomaly-detection/app/DetectAnomalLog/build/Desktop_Qt_6_9_1-Debug/appDetectAnomalLog)
+set(__QT_DEPLOY_TARGET_appDetectAnomalLog_TYPE EXECUTABLE)
