@@ -26,7 +26,7 @@ struct Node {
     QMap<QString, std::shared_ptr<Node>> childD;
     int depth;
     QString digitOrtoken;
-
+    QVector<std::shared_ptr<LogCluster>> clusters;
     Node(int d = 0, const QString& token = "") : depth(d), digitOrtoken(token) {}
 };
 

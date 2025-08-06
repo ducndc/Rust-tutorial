@@ -29,14 +29,13 @@ ParseLog::hasNumbers(
 }
 
 std::shared_ptr<LogCluster>
-ParseLog::treeSearch(
-    std::shared_ptr<Node> root,
-    const QStringList& seq)
+ParseLog::treeSearch(std::shared_ptr<Node> root, const QStringList& seq)
 {
     int seqLen = seq.size();
-    if (!root->childD.contains(QString::number(seqLen))) return nullptr;
+    QString lenKey = QString::number(seqLen);
+    if (!root->childD.contains(lenKey)) return nullptr;
 
-    std::shared_ptr<Node> parent = root->childD[QString::number(seqLen)];
+    std::shared_ptr<Node> parent = root->childD[lenKey];
     int currentDepth = 1;
 
     for (const QString& token : seq) {
@@ -52,12 +51,12 @@ ParseLog::treeSearch(
         ++currentDepth;
     }
 
-    QVector<std::shared_ptr<LogCluster>>* clusters = reinterpret_cast<QVector<std::shared_ptr<LogCluster>>*>(parent->childD["__clusters"].get());
-    return fastMatch(*clusters, seq);
+    // ✅ Sử dụng trực tiếp trường clusters
+    return fastMatch(parent->clusters, seq);
 }
 
-void
-ParseLog::addSeqToPrefixTree(
+
+void ParseLog::addSeqToPrefixTree(
     std::shared_ptr<Node> root,
     std::shared_ptr<LogCluster> cluster)
 {
@@ -65,6 +64,7 @@ ParseLog::addSeqToPrefixTree(
     QString lenKey = QString::number(seqLen);
     std::shared_ptr<Node> parent;
 
+    // Bắt đầu từ node có độ dài tương ứng
     if (!root->childD.contains(lenKey)) {
         parent = std::make_shared<Node>(1, lenKey);
         root->childD[lenKey] = parent;
@@ -75,13 +75,7 @@ ParseLog::addSeqToPrefixTree(
     int currentDepth = 1;
     for (const QString& token : cluster->logTemplate) {
         if (currentDepth >= m_depth || currentDepth > seqLen) {
-            if (!parent->childD.contains("__clusters")) {
-                auto vec = new QVector<std::shared_ptr<LogCluster>>{cluster};
-                parent->childD["__clusters"] = std::reinterpret_pointer_cast<Node>((std::shared_ptr<void>)vec);
-            } else {
-                auto vec = reinterpret_cast<QVector<std::shared_ptr<LogCluster>>*>(parent->childD["__clusters"].get());
-                vec->append(cluster);
-            }
+            parent->clusters.append(cluster);  // ✅ Lưu cluster trực tiếp
             break;
         }
 
@@ -93,6 +87,7 @@ ParseLog::addSeqToPrefixTree(
         ++currentDepth;
     }
 }
+
 
 double
 ParseLog::seqDist(
@@ -310,10 +305,12 @@ ParseLog::parse(
         auto matched = treeSearch(root, tokens);
         qDebug() << "id = " << id;
         if (!matched) {
+            qDebug() << __ASSERT_LINE;
             auto cluster = std::make_shared<LogCluster>(tokens, QVector<int>{id});
             clusters.append(cluster);
             addSeqToPrefixTree(root, cluster);
         } else {
+            qDebug() << __ASSERT_LINE;
             QStringList newTemplate = getTemplate(tokens, matched->logTemplate);
             matched->logIDL.append(id);
             if (newTemplate.join(" ") != matched->logTemplate.join(" ")) {
