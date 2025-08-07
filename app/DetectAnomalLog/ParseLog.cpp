@@ -294,6 +294,15 @@ ParseLog::getParameterList(
     return params;
 }
 
+QString escapeCsv(const QString &field) {
+    QString result = field;
+    if (result.contains(',') || result.contains('"')) {
+        result.replace("\"", "\"\""); // escape dấu "
+        result = "\"" + result + "\"";
+    }
+    return result;
+}
+
 void
 ParseLog::outputResult(
     const QVector<std::shared_ptr<LogCluster>>& clusters)
@@ -350,10 +359,10 @@ ParseLog::outputResult(
         values << QString::number(id);
 
         for (const QString& key : m_headers) {
-            values << row.value(key);
+            values << escapeCsv(row.value(key));
         }
 
-        values << tmplId << tmplStr;
+        values << tmplId << escapeCsv(tmplStr);
 
         if (paramList.isEmpty()) {
             values << "[]";

@@ -10,25 +10,19 @@ using namespace Eigen;
 
 PCA::PCA(QObject *parent) : QObject(parent) {}
 
-void
-PCA::run(
-    const QString &filePath,
-    const QString &device)
+void PCA::run(const QString &filePath, const QString &device)
 {
     QString path = filePath;
-
     if (path.startsWith("file://"))
         path = path.mid(7);
 
     QFileInfo info(path);
-
     if (!info.exists()) {
         emit detectionError("File not found.");
         return;
     }
 
     QFile file(path);
-
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         emit detectionError("Failed to open file.");
         return;
@@ -37,61 +31,181 @@ PCA::run(
     QVector<VectorXd> rows;
     int cols = -1;
     QTextStream in(&file);
+    int lineNumber = 0;
 
     while (!in.atEnd()) {
         QString line = in.readLine().trimmed();
+        lineNumber++;
 
-        if (line.isEmpty()) {
+        if (line.isEmpty())
             continue;
-        }
 
         QStringList parts = line.split(",", Qt::SkipEmptyParts);
-
         if (cols == -1) {
             cols = parts.size();
         }
 
-        VectorXd vec(cols);
-
-        for (int i = 0; i < cols; ++i) {
-            vec[i] = parts[i].toDouble();
+        if (parts.size() != cols) {
+            qWarning() << "⚠️ Skipping line" << lineNumber << "due to unexpected column count:" << parts.size();
+            continue;
         }
 
-        rows.append(vec);
+        VectorXd vec(cols);
+        bool ok = true;
+        for (int i = 0; i < cols; ++i) {
+            bool convertOk;
+            vec[i] = parts[i].toDouble(&convertOk);
+            if (!convertOk) {
+                ok = false;
+                break;
+            }
+        }
+
+        if (ok)
+            rows.append(vec);
+        else
+            qWarning() << "⚠️ Skipping line" << lineNumber << "due to non-numeric value.";
     }
 
     file.close();
 
     if (rows.isEmpty()) {
-        emit detectionError("Empty dataset.");
+        emit detectionError("Empty or invalid dataset.");
         return;
     }
 
     MatrixXd data(rows.size(), cols);
-
-    for (int i = 0; i < rows.size(); ++i) {
+    for (int i = 0; i < rows.size(); ++i)
         data.row(i) = rows[i];
-    }
 
     RowVectorXd mean = data.colwise().mean();
     MatrixXd centered = data.rowwise() - mean;
-    MatrixXd cov = (centered.adjoint() * centered) / double(data.rows() - 1);
+
+    // Loại bỏ các cột có phương sai = 0
+    VectorXd variances = centered.array().square().colwise().mean();
+    QVector<int> validCols;
+    for (int i = 0; i < variances.size(); ++i) {
+        if (variances[i] > 1e-8)
+            validCols.append(i);
+    }
+
+    if (validCols.size() < 2) {
+        emit detectionError("Too few valid dimensions for PCA.");
+        return;
+    }
+
+    MatrixXd filtered(centered.rows(), validCols.size());
+    for (int i = 0; i < validCols.size(); ++i)
+        filtered.col(i) = centered.col(validCols[i]);
+
+    MatrixXd cov = (filtered.adjoint() * filtered) / double(filtered.rows() - 1);
+    if (!cov.allFinite()) {
+        emit detectionError("Covariance matrix contains NaN or Inf.");
+        return;
+    }
 
     SelfAdjointEigenSolver<MatrixXd> eig(cov);
-
     if (eig.info() != Success) {
         emit detectionError("Eigen decomposition failed.");
         return;
     }
 
     VectorXd eigenValues = eig.eigenvalues().reverse();
-    MatrixXd eigenVectors = eig.eigenvectors().rowwise().reverse();
-
     QString result = "PCA Result (Top 3 eigenvalues):\n";
-
-    for (int i = 0; i < std::min(3, int(eigenValues.size())); ++i) {
+    for (int i = 0; i < std::min(3, int(eigenValues.size())); ++i)
         result += QString("  %1. Eigenvalue: %2\n").arg(i + 1).arg(eigenValues[i]);
-    }
 
     emit detectionFinished(result);
 }
+
+// void
+// PCA::run(
+//     const QString &filePath,
+//     const QString &device)
+// {
+//     QString path = filePath;
+
+//     if (path.startsWith("file://"))
+//         path = path.mid(7);
+
+//     QFileInfo info(path);
+
+//     if (!info.exists()) {
+//         emit detectionError("File not found.");
+//         return;
+//     }
+
+//     QFile file(path);
+
+//     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+//         emit detectionError("Failed to open file.");
+//         return;
+//     }
+
+//     QVector<VectorXd> rows;
+//     int cols = -1;
+//     QTextStream in(&file);
+
+//     while (!in.atEnd()) {
+//         QString line = in.readLine().trimmed();
+
+//         if (line.isEmpty()) {
+//             continue;
+//         }
+
+//         QStringList parts = line.split(",", Qt::SkipEmptyParts);
+
+//         if (cols == -1) {
+//             cols = parts.size();
+//         }
+
+
+
+//         VectorXd vec(cols);
+//         bool ok = true;
+//         for (int i = 0; i < cols; ++i) {
+//             double val = parts[i].toDouble(&ok);
+//             if (!ok) break;
+//             vec[i] = val;
+//         }
+
+//         rows.append(vec);
+//         if (cols != 13)
+//             qDebug() << "Loaded rows:" << rows.size() << "Cols:" << cols;
+//     }
+
+//     file.close();
+
+//     if (rows.isEmpty()) {
+//         emit detectionError("Empty dataset.");
+//         return;
+//     }
+
+//     MatrixXd data(rows.size(), cols);
+
+//     for (int i = 0; i < rows.size(); ++i) {
+//         data.row(i) = rows[i];
+//     }
+
+//     RowVectorXd mean = data.colwise().mean();
+//     MatrixXd centered = data.rowwise() - mean;
+//     MatrixXd cov = (centered.adjoint() * centered) / double(data.rows() - 1);
+
+//     SelfAdjointEigenSolver<MatrixXd> eig(cov);
+
+//     if (eig.info() != Success) {
+//         emit detectionError("Eigen decomposition failed.");
+//         return;
+//     }
+
+//     VectorXd eigenValues = eig.eigenvalues().reverse();
+//     MatrixXd eigenVectors = eig.eigenvectors().rowwise().reverse();
+
+//     QString result = "PCA Result (Top 3 eigenvalues):\n";
+
+//     for (int i = 0; i < std::min(3, int(eigenValues.size())); ++i) {
+//         result += QString("  %1. Eigenvalue: %2\n").arg(i + 1).arg(eigenValues[i]);
+//     }
+
+//     emit detectionFinished(result);
+// }
