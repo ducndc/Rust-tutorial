@@ -31,6 +31,11 @@ LogAnalyzer::analyze(
     QString extractDir = "./tmp/extracted_log";
     QString outDir = "./tmp/analyzed_result";
 
+    if (!FileUtils::cleanDirectory(extractDir)) {
+        emit analysisError("Failed to prepare extract directory.");
+        return;
+    }
+
     if (path.endsWith(".tar") || path.endsWith(".tar.gz") || path.endsWith(".tgz")) {
         QString extractedLog;
         if (!FileUtils::extractArchive(path, extractDir, extractedLog)) {
@@ -74,4 +79,5 @@ LogAnalyzer::analyze(
 
     //2. PCA
     pca.run(csvOut, device);
+
 }
